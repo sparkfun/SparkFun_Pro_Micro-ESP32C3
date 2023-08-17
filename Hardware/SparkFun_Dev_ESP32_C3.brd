@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="23" fill="1" visible="yes" active="yes"/>
@@ -555,6 +555,17 @@ Used as a test point connection for pogo pins or other debugging tools.
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="PAD.03X.05">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.05" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.05" x 0.05"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
 </package>
 </packages>
 </library>
@@ -2647,6 +2658,43 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-RF">
+<description>&lt;h3&gt;SparkFun RF, WiFi, Cellular, and Bluetooth&lt;/h3&gt;
+In this library you'll find things that send or receive RF-- cellular modules, Bluetooth, WiFi, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="ANT-2.4GHZ-7.0X3.0MM-FRACTUS">
+<description>&lt;h3&gt;2.4GHz Chip Antenna - 9.5 x 2.0 x 1.2 mm&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Wireless/General/SPK-AT9520-B2R4HAA.pdf"&gt;Example Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<text x="-1.243" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="1.243" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+<smd name="FEED" x="-2.55" y="0" dx="1.5" dy="2.6" layer="1" roundness="10"/>
+<smd name="NC" x="2.55" y="0" dx="1.5" dy="2.6" layer="1" roundness="10"/>
+<wire x1="-3.5" y1="-1.5" x2="-3.5" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="-3.5" y1="1.5" x2="3.5" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="3.5" y1="1.5" x2="3.5" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="3.5" y1="-1.5" x2="-3.5" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="-3.7" y1="1.7" x2="-1.4" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-1.7" x2="-3.7" y2="-1.7" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="-1.7" x2="-3.7" y2="1.7" width="0.2032" layer="21"/>
+<text x="-3" y="2" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-3" y="-3" size="1" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="3.7" y1="1.7" x2="3.7" y2="-1.7" width="0.2" layer="21" style="shortdash"/>
+<wire x1="3.7" y1="-1.7" x2="-0.3" y2="-1.7" width="0.2" layer="21" style="shortdash"/>
+<wire x1="3.7" y1="1.7" x2="-0.3" y2="1.7" width="0.2" layer="21" style="shortdash"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3009,6 +3057,29 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <attribute name="PROD_ID" value="CAP-15278" x="19.05" y="8.89" size="1.778" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
 <attribute name="VALUE" value="9.1pF" x="19.05" y="9.452" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
+<element name="C7" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="-29" y="-28" smashed="yes">
+<attribute name="NAME" x="-29" y="-27.438" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-29" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-29" y="-28.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C8" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="-29.5" y="-31" smashed="yes">
+<attribute name="NAME" x="-29.5" y="-30.438" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-29" y="-31" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-29.5" y="-31.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C9" library="SparkFun-Capacitors" package="0402-TIGHT" value="10nF" x="-29" y="-34" smashed="yes">
+<attribute name="NAME" x="-29" y="-33.438" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-14847" x="-29" y="-34" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-29" y="-34.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="TP5" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="-30" y="-36.5" smashed="yes"/>
+<element name="TP6" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="-30" y="-38.5" smashed="yes"/>
+<element name="A1" library="SparkFun-RF" package="ANT-2.4GHZ-7.0X3.0MM-FRACTUS" value="ANTENNA-2.4GHZ-FRACTUS" x="14" y="20.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="17" y="22.5" size="1" layer="26" font="vector" rot="MR0"/>
+<attribute name="NAME" x="15.243" y="20.5" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="17" y="17.5" size="1" layer="28" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="12.757" y="20.5" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="IO18/USB_N">
@@ -3022,7 +3093,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="J1" pad="A6"/>
 <contactref element="J1" pad="B6"/>
 <contactref element="U1" pad="P26"/>
-<wire x1="15.2" y1="12.68" x2="12.95" y2="7.407" width="0" layer="19" extent="16-16"/>
+<wire x1="12.95" y1="7.407" x2="15.2" y2="12.68" width="0" layer="19" extent="16-16"/>
 <wire x1="11.95" y1="7.407" x2="12.95" y2="7.407" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="3.3V">
@@ -3039,17 +3110,23 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="U1" pad="P32"/>
 <contactref element="U1" pad="P3"/>
 <contactref element="U1" pad="P2"/>
-<wire x1="15.2" y1="10.18" x2="16.195" y2="11.7141" width="0" layer="19" extent="1-16"/>
+<contactref element="C8" pad="1"/>
+<contactref element="C9" pad="1"/>
+<contactref element="C7" pad="1"/>
+<wire x1="-30" y1="-31" x2="-29.5" y2="-34" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.5" y1="-28" x2="-30" y2="-31" width="0" layer="19" extent="1-1"/>
+<wire x1="7.747" y1="9.906" x2="-29.5" y2="-28" width="0" layer="19" extent="1-16"/>
+<wire x1="10.16" y1="9.152" x2="7.747" y2="9.906" width="0" layer="19" extent="1-16"/>
+<wire x1="11.176" y1="9.152" x2="10.16" y2="9.152" width="0" layer="19" extent="1-1"/>
+<wire x1="10.2" y1="10.68" x2="10.16" y2="9.152" width="0" layer="19" extent="1-16"/>
+<wire x1="13.45" y1="8.93" x2="11.176" y2="9.152" width="0" layer="19" extent="1-16"/>
+<wire x1="13.95" y1="8.93" x2="13.45" y2="8.93" width="0" layer="19" extent="16-16"/>
+<wire x1="14.224" y1="10.152" x2="13.95" y2="8.93" width="0" layer="19" extent="1-16"/>
+<wire x1="15.2" y1="10.18" x2="14.224" y2="10.152" width="0" layer="19" extent="1-16"/>
 <wire x1="15.2" y1="9.68" x2="15.2" y2="10.18" width="0" layer="19" extent="16-16"/>
-<wire x1="14.224" y1="10.152" x2="15.2" y2="9.68" width="0" layer="19" extent="1-16"/>
-<wire x1="13.95" y1="8.93" x2="14.224" y2="10.152" width="0" layer="19" extent="1-16"/>
-<wire x1="13.45" y1="8.93" x2="13.95" y2="8.93" width="0" layer="19" extent="16-16"/>
-<wire x1="11.176" y1="9.152" x2="13.45" y2="8.93" width="0" layer="19" extent="1-16"/>
-<wire x1="10.16" y1="9.152" x2="11.176" y2="9.152" width="0" layer="19" extent="1-1"/>
-<wire x1="7.747" y1="9.906" x2="10.16" y2="9.152" width="0" layer="19" extent="1-16"/>
-<wire x1="13.45" y1="8.93" x2="10.16" y2="9.152" width="0" layer="19" extent="1-16"/>
-<wire x1="10.95" y1="13.93" x2="13.45" y2="8.93" width="0" layer="19" extent="16-16"/>
-<wire x1="12.2" y1="5.08" x2="11.176" y2="9.152" width="0" layer="19" extent="1-1"/>
+<wire x1="16.195" y1="11.7141" x2="15.2" y2="10.18" width="0" layer="19" extent="1-16"/>
+<wire x1="10.95" y1="13.93" x2="10.2" y2="10.68" width="0" layer="19" extent="16-16"/>
+<wire x1="12.2" y1="5.08" x2="13.45" y2="8.93" width="0" layer="19" extent="1-16"/>
 <wire x1="17.0053" y1="4.572" x2="12.2" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
@@ -3097,35 +3174,43 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="Y1" pad="P4"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C4" pad="1"/>
-<wire x1="19.904" y1="12.12" x2="19.55" y2="13.97" width="0" layer="19" extent="16-16"/>
-<wire x1="18.204" y1="10.72" x2="19.904" y2="12.12" width="0" layer="19" extent="16-16"/>
-<wire x1="18.55" y1="8.89" x2="18.204" y2="10.72" width="0" layer="19" extent="16-16"/>
-<wire x1="17.145" y1="9.1139" x2="18.55" y2="8.89" width="0" layer="19" extent="1-16"/>
-<wire x1="15.925" y1="7.407" x2="17.145" y2="9.1139" width="0" layer="19" extent="1-16"/>
-<wire x1="15.24" y1="7.12" x2="15.925" y2="7.407" width="0" layer="19" extent="1-16"/>
-<wire x1="14.224" y1="8.12" x2="15.24" y2="7.12" width="0" layer="19" extent="1-1"/>
-<wire x1="20.574" y1="7.01" x2="18.55" y2="8.89" width="0" layer="19" extent="1-16"/>
-<wire x1="12.192" y1="10.152" x2="14.224" y2="8.12" width="0" layer="19" extent="1-1"/>
-<wire x1="11.176" y1="10.152" x2="12.192" y2="10.152" width="0" layer="19" extent="1-1"/>
-<wire x1="11.176" y1="8.12" x2="11.176" y2="10.152" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="7.12" x2="11.176" y2="8.12" width="0" layer="19" extent="1-1"/>
-<wire x1="9.475" y1="7.407" x2="10.16" y2="7.12" width="0" layer="19" extent="1-16"/>
-<wire x1="11.2" y1="5.08" x2="10.16" y2="7.12" width="0" layer="19" extent="1-1"/>
+<contactref element="C7" pad="2"/>
+<contactref element="C9" pad="2"/>
+<contactref element="C8" pad="2"/>
+<contactref element="TP6" pad="1"/>
+<wire x1="-28.5" y1="-34" x2="-30" y2="-38.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-29" y1="-31" x2="-28.5" y2="-34" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.5" y1="-28" x2="-29" y2="-31" width="0" layer="19" extent="1-1"/>
+<wire x1="8.628" y1="1.143" x2="-28.5" y2="-28" width="0" layer="19" extent="1-1"/>
+<wire x1="7.3533" y1="4.572" x2="8.628" y2="1.143" width="0" layer="19" extent="1-1"/>
+<wire x1="9.475" y1="7.407" x2="7.3533" y2="4.572" width="0" layer="19" extent="1-16"/>
+<wire x1="10.16" y1="7.12" x2="9.475" y2="7.407" width="0" layer="19" extent="1-16"/>
+<wire x1="11.176" y1="8.12" x2="10.16" y2="7.12" width="0" layer="19" extent="1-1"/>
+<wire x1="11.176" y1="10.152" x2="11.176" y2="8.12" width="0" layer="19" extent="1-1"/>
+<wire x1="12.192" y1="10.152" x2="11.176" y2="10.152" width="0" layer="19" extent="1-1"/>
 <wire x1="12.7" y1="11.43" x2="12.192" y2="10.152" width="0" layer="19" extent="1-16"/>
-<wire x1="7.3533" y1="4.572" x2="9.475" y2="7.407" width="0" layer="19" extent="1-16"/>
-<wire x1="8.628" y1="1.143" x2="7.3533" y2="4.572" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="5.08" x2="10.16" y2="7.12" width="0" layer="19" extent="1-1"/>
+<wire x1="14.224" y1="8.12" x2="12.192" y2="10.152" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="7.12" x2="14.224" y2="8.12" width="0" layer="19" extent="1-1"/>
+<wire x1="15.925" y1="7.407" x2="15.24" y2="7.12" width="0" layer="19" extent="1-16"/>
+<wire x1="17.145" y1="9.1139" x2="15.925" y2="7.407" width="0" layer="19" extent="1-16"/>
+<wire x1="18.55" y1="8.89" x2="17.145" y2="9.1139" width="0" layer="19" extent="1-16"/>
+<wire x1="18.204" y1="10.72" x2="18.55" y2="8.89" width="0" layer="19" extent="16-16"/>
+<wire x1="19.904" y1="12.12" x2="18.204" y2="10.72" width="0" layer="19" extent="16-16"/>
+<wire x1="19.55" y1="13.97" x2="19.904" y2="12.12" width="0" layer="19" extent="16-16"/>
+<wire x1="20.574" y1="7.01" x2="18.55" y2="8.89" width="0" layer="19" extent="1-16"/>
 <wire x1="16.772" y1="1.143" x2="15.24" y2="7.12" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="13.31" x2="11.176" y2="10.152" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R3" pad="2"/>
 <contactref element="I2C" pad="3"/>
-<wire x1="8.7884" y1="9.906" x2="12.192" y2="8.12" width="0" layer="19" extent="1-1"/>
+<wire x1="8.7884" y1="9.906" x2="12.192" y2="8.12" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$5">
 <contactref element="I2C" pad="1"/>
 <contactref element="R4" pad="1"/>
-<wire x1="13.208" y1="8.12" x2="6.7056" y2="9.906" width="0" layer="19" extent="1-1"/>
+<wire x1="6.7056" y1="9.906" x2="13.208" y2="8.12" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="IO7/SCL">
 <contactref element="J4" pad="4"/>
@@ -3153,9 +3238,6 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <vertex x="8.382" y="6.985"/>
 <vertex x="17.018" y="6.985"/>
 </polygon>
-<wire x1="17.018" y1="2.652" x2="17.018" y2="6.832" width="0" layer="19" extent="1-1"/>
-<wire x1="8.382" y1="6.832" x2="17.018" y2="6.832" width="0" layer="19" extent="1-1"/>
-<wire x1="8.3947" y1="4.572" x2="8.382" y2="6.832" width="0" layer="19" extent="1-1"/>
 <wire x1="8.382" y1="2.652" x2="8.3947" y2="4.572" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
@@ -3182,15 +3264,17 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="C1" pad="1"/>
 <contactref element="U2" pad="1"/>
 <contactref element="R8" pad="1"/>
+<contactref element="TP5" pad="1"/>
+<wire x1="10.25" y1="7.407" x2="-30" y2="-36.5" width="0" layer="19" extent="1-16"/>
+<wire x1="12.192" y1="9.152" x2="10.25" y2="7.407" width="0" layer="19" extent="1-16"/>
+<wire x1="13.208" y1="10.152" x2="12.192" y2="9.152" width="0" layer="19" extent="1-1"/>
+<wire x1="16.195" y1="9.1139" x2="13.208" y2="10.152" width="0" layer="19" extent="1-1"/>
 <wire x1="15.15" y1="7.407" x2="16.195" y2="9.1139" width="0" layer="19" extent="1-16"/>
-<wire x1="13.208" y1="10.152" x2="16.195" y2="9.1139" width="0" layer="19" extent="1-1"/>
-<wire x1="12.192" y1="9.152" x2="13.208" y2="10.152" width="0" layer="19" extent="1-1"/>
-<wire x1="10.25" y1="7.407" x2="12.192" y2="9.152" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="R8" pad="2"/>
 <contactref element="U2" pad="3"/>
-<wire x1="18.095" y1="9.1139" x2="13.208" y2="9.152" width="0" layer="19" extent="1-1"/>
+<wire x1="13.208" y1="9.152" x2="18.095" y2="9.1139" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EN">
 <contactref element="R11" pad="1"/>
@@ -3229,13 +3313,13 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="R12" pad="1"/>
 </signal>
 <signal name="IO21/RX">
-<contactref element="U1" pad="P28"/>
 <contactref element="J2" pad="2"/>
+<contactref element="U1" pad="P28"/>
 <wire x1="1.27" y1="8.89" x2="15.2" y2="11.68" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="IO20/TX">
-<contactref element="U1" pad="P27"/>
 <contactref element="J2" pad="1"/>
+<contactref element="U1" pad="P27"/>
 <wire x1="1.27" y1="6.35" x2="15.2" y2="12.18" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="IO23/STAT">
@@ -3245,15 +3329,21 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="C3" pad="2"/>
 <contactref element="U1" pad="P29"/>
 <contactref element="Y1" pad="P1"/>
+<wire x1="17.47775" y1="11.5748" x2="17.6588" y2="11.5748" width="0.254" layer="16"/>
+<wire x1="17.6588" y1="11.5748" x2="18.204" y2="12.12" width="0.254" layer="16"/>
+<wire x1="15.2" y1="11.18" x2="17.08295" y2="11.18" width="0.254" layer="16"/>
+<wire x1="17.08295" y1="11.18" x2="17.47775" y2="11.5748" width="0.254" layer="16"/>
 <wire x1="18.204" y1="12.12" x2="18.55" y2="13.97" width="0" layer="19" extent="16-16"/>
-<wire x1="15.2" y1="11.18" x2="18.204" y2="12.12" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$10">
 <contactref element="U1" pad="P30"/>
 <contactref element="C4" pad="2"/>
 <contactref element="Y1" pad="P3"/>
-<wire x1="19.55" y1="8.89" x2="19.904" y2="10.72" width="0" layer="19" extent="16-16"/>
-<wire x1="15.2" y1="10.68" x2="19.904" y2="10.72" width="0" layer="19" extent="16-16"/>
+<wire x1="15.2" y1="10.68" x2="16.66295" y2="10.68" width="0.254" layer="16"/>
+<wire x1="16.66295" y1="10.68" x2="17.47775" y2="9.8652" width="0.254" layer="16"/>
+<wire x1="17.47775" y1="9.8652" x2="19.0492" y2="9.8652" width="0.254" layer="16"/>
+<wire x1="19.0492" y1="9.8652" x2="19.904" y2="10.72" width="0.254" layer="16"/>
+<wire x1="19.904" y1="10.72" x2="19.55" y2="8.89" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
