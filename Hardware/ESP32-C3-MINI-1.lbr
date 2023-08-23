@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -123,6 +123,12 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="no"/>
+<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
 <layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
@@ -170,6 +176,7 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
 <layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
@@ -308,11 +315,56 @@
 <wire x1="2.627" y1="-2.58" x2="2.627" y2="-2.199" width="0.2032" layer="21"/>
 <smd name="GND" x="0" y="0" dx="3.75" dy="3.75" layer="1" stop="no" cream="no"/>
 </package>
+<package name="CHIP_ANT">
+<wire x1="-1.56" y1="-0.82" x2="1.59" y2="-0.82" width="0.1" layer="51"/>
+<wire x1="1.59" y1="-0.82" x2="1.59" y2="0.83" width="0.1" layer="51"/>
+<wire x1="1.59" y1="0.83" x2="-1.56" y2="0.83" width="0.1" layer="51"/>
+<wire x1="-1.56" y1="0.83" x2="-1.56" y2="-0.82" width="0.1" layer="51"/>
+<smd name="P1" x="-1.41" y="-0.55" dx="0.9" dy="0.84" layer="1"/>
+<smd name="P2" x="-1.41" y="0.56" dx="0.9" dy="0.84" layer="1"/>
+<wire x1="-1.56" y1="-0.82" x2="-1.06" y2="-0.82" width="0.1" layer="49"/>
+<wire x1="-1.06" y1="-0.82" x2="-1.06" y2="0.83" width="0.1" layer="49"/>
+<wire x1="-1.06" y1="0.83" x2="-1.56" y2="0.83" width="0.1" layer="49"/>
+<wire x1="-1.56" y1="0.83" x2="-1.56" y2="-0.82" width="0.1" layer="49"/>
+<wire x1="1.59" y1="-0.82" x2="1.09" y2="-0.82" width="0.1" layer="49"/>
+<wire x1="1.09" y1="-0.82" x2="1.09" y2="0.83" width="0.1" layer="49"/>
+<wire x1="1.09" y1="0.83" x2="1.59" y2="0.83" width="0.1" layer="49"/>
+<wire x1="1.59" y1="0.83" x2="1.59" y2="-0.82" width="0.1" layer="49"/>
+<smd name="P3" x="1.4" y="0" dx="0.9" dy="1.95" layer="1"/>
+<wire x1="-0.62" y1="0.94" x2="0.68" y2="0.94" width="0.1" layer="21"/>
+<wire x1="-0.62" y1="-0.94" x2="0.68" y2="-0.94" width="0.1" layer="21"/>
+<rectangle x1="-3.05" y1="-4.92" x2="1.95" y2="1.08" layer="39"/>
+<rectangle x1="-3.05" y1="-4.92" x2="1.95" y2="1.08" layer="40" rot="R180"/>
+</package>
+<package name="CHIP_ANT_NO_COURTYARD">
+<description>&lt;h3&gt;Chip Antenna&lt;/h3&gt;
+&lt;p&gt;Mechanical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pad Size: 1.5mm x .6mm&lt;/li&gt;
+&lt;li&gt;Pin count: 4&lt;/li&gt;
+&lt;li&gt;Pin pitch:3.5mm x 1.6mm&lt;/li&gt;
+&lt;li&gt;Package Size: 5mm x 2mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.johansontechnology.com/datasheets/2450AT42E010B/2450AT42E010B.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
+<smd name="P1" x="-1.79" y="-0.97" dx="1.5" dy="0.6" layer="1"/>
+<smd name="P2" x="1.71" y="-0.97" dx="1.5" dy="0.6" layer="1"/>
+<smd name="P3" x="1.71" y="0.63" dx="1.5" dy="0.6" layer="1"/>
+<smd name="P4" x="-1.79" y="0.63" dx="1.5" dy="0.6" layer="1"/>
+<wire x1="-2.54" y1="-1.27" x2="2.46" y2="-1.27" width="0.1" layer="51"/>
+<wire x1="2.46" y1="-1.27" x2="2.46" y2="0.93" width="0.1" layer="51"/>
+<wire x1="2.46" y1="0.93" x2="-2.54" y2="0.93" width="0.1" layer="51"/>
+<wire x1="-2.54" y1="0.93" x2="-2.54" y2="-1.27" width="0.1" layer="51"/>
+<rectangle x1="-1.84" y1="-0.37" x2="-1.04" y2="0.03" layer="51"/>
+<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
+<text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;VALUE</text>
+<wire x1="-0.635" y1="1.143" x2="0.635" y2="1.143" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-1.524" x2="0.635" y2="-1.524" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ESP32-C3">
 <description>&lt;h3&gt;ESP32-C3&lt;/h3&gt;</description>
-<pin name="GND" x="-22.86" y="-25.4" length="short"/>
+<pin name="GND" x="-22.86" y="-22.86" length="short"/>
 <pin name="VDD3P3" x="-22.86" y="27.94" length="short"/>
 <pin name="XTAL_32K_P/IO0" x="25.4" y="27.94" length="short" rot="R180"/>
 <pin name="XTAL_32K_N/IO1" x="25.4" y="25.4" length="short" rot="R180"/>
@@ -353,12 +405,12 @@ pin defaults</text>
 IO8 -&gt; Float
 IO9 -&gt; Pull-up
 </text>
-<wire x1="-20.32" y1="30.48" x2="-20.32" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-27.94" x2="22.86" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-27.94" x2="22.86" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="30.48" x2="-20.32" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-25.4" x2="22.86" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-25.4" x2="22.86" y2="30.48" width="0.254" layer="94"/>
 <wire x1="22.86" y1="30.48" x2="-20.32" y2="30.48" width="0.254" layer="94"/>
 <text x="-20.32" y="33.02" size="1.778" layer="95" font="vector" align="top-left">&gt;Name</text>
-<text x="-20.32" y="-30.48" size="1.778" layer="96" font="vector">&gt;Value</text>
+<text x="-20.32" y="-27.94" size="1.778" layer="96" font="vector">&gt;Value</text>
 <pin name="FSPICS0/IO10" x="25.4" y="2.54" length="short" rot="R180"/>
 <pin name="VDDA" x="-22.86" y="25.4" length="short"/>
 <pin name="XTAL_N" x="-22.86" y="-7.62" length="short"/>
@@ -366,7 +418,7 @@ IO9 -&gt; Pull-up
 <pin name="VDD3P3_RTC" x="-22.86" y="22.86" length="short"/>
 <pin name="VDD3P3_CPU" x="-22.86" y="20.32" length="short"/>
 <pin name="VDD_SPI/IO11" x="-22.86" y="17.78" length="short"/>
-<pin name="LNA_IN" x="25.4" y="-25.4" length="short" rot="R180"/>
+<pin name="LNA_IN" x="-22.86" y="-2.54" length="short"/>
 <text x="-2.54" y="-2.54" size="1.27" layer="97" font="vector" rot="R90">Glitch</text>
 <wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.1524" layer="97"/>
 <wire x1="-2.54" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="97"/>
@@ -377,6 +429,19 @@ IO9 -&gt; Pull-up
 <wire x1="0" y1="-20.32" x2="-2.54" y2="-20.32" width="0.1524" layer="97"/>
 <wire x1="-2.54" y1="-20.32" x2="-2.54" y2="-15.24" width="0.1524" layer="97"/>
 <wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="97"/>
+</symbol>
+<symbol name="ANTENNA-GROUNDED">
+<description>&lt;h3&gt;Antenna (with ground termination)&lt;/h3&gt;</description>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="1.1359" width="0.254" layer="94"/>
+<text x="3.048" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="3.048" y="-2.286" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="GND" x="2.54" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="SIGNAL" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -426,6 +491,45 @@ The availability of Wi-Fi and Bluetooth 5 (LE) connectivity not only makes the d
 <technology name="">
 <attribute name="PROD-ID" value="" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2.4GHZ_ANT">
+<gates>
+<gate name="G$1" symbol="ANTENNA-GROUNDED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CHIP_ANT">
+<connects>
+<connect gate="G$1" pin="GND" pad="P2 P3"/>
+<connect gate="G$1" pin="SIGNAL" pad="P1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WIFI_CHIP_ANT" prefix="E">
+<description>&lt;h3&gt;Johanson Technology - 2450AT42E010B001E 2.4GHz Chip Antenna &lt;/h3&gt;
+&lt;p&gt;This antenna was designed in mind for small coin cell, wearable, IoT, 2.4 BLE, 802.11, ISM, Zigbee, etc. applications in
+close-range networks where metal or a battery/display covers the entire length or side of the PCB or encasement must be
+present directly under the antenna and there's no room for usual/typical antenna metal clearance.&lt;/p&gt;
+
+&lt;ul&gt; 
+&lt;li&gt; DOES NOT NEED A COURTYARD - NEEDS GROUND BENEATH IT &lt;/li&gt;</description>
+<gates>
+<gate name="G$1" symbol="ANTENNA-GROUNDED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CHIP_ANT_NO_COURTYARD">
+<connects>
+<connect gate="G$1" pin="GND" pad="P3 P4"/>
+<connect gate="G$1" pin="SIGNAL" pad="P1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
