@@ -20398,7 +20398,7 @@ Pin 17</text>
 <label x="508" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="IO9/BOOT" class="0">
+<net name="IO8/BOOT" class="0">
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="533.4" y1="124.46" x2="533.4" y2="129.54" width="0.1524" layer="91"/>
@@ -20408,6 +20408,11 @@ Pin 17</text>
 <wire x1="533.4" y1="129.54" x2="535.94" y2="129.54" width="0.1524" layer="91"/>
 <junction x="533.4" y="129.54"/>
 <label x="535.94" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO8"/>
+<wire x1="464.82" y1="114.3" x2="462.28" y2="114.3" width="0.1524" layer="91"/>
+<label x="464.82" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -20467,11 +20472,9 @@ Pin 17</text>
 <junction x="406.4" y="88.9"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="ANT" class="0">
 <segment>
 <wire x1="406.4" y1="104.14" x2="406.4" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="LNA_IN"/>
-<wire x1="406.4" y1="104.14" x2="414.02" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="E1" gate="G$1" pin="SIGNAL"/>
 </segment>
 </net>
