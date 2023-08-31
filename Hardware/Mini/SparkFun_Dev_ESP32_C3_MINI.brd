@@ -1935,10 +1935,10 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="16.51" y="12.7" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="QWIIC_3MM" value="QWIIC_LOGO_3MM" x="12.7" y="6.35" smashed="yes"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="6.35" y="8.89" smashed="yes" rot="MR0"/>
-<element name="R7" library="SparkFun-Resistors" package="0402-TIGHT" value="100k" x="5.08" y="12.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.08" y="12.138" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-13495" x="5.08" y="12.7" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="5.08" y="13.262" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="R7" library="SparkFun-Resistors" package="0402-TIGHT" value="100k" x="5.08" y="17.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.08" y="17.218" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-13495" x="5.08" y="17.78" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="5.08" y="18.342" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R9" library="SparkFun-Resistors" package="0402-TIGHT" value="100k" x="15.24" y="17.78" smashed="yes">
 <attribute name="NAME" x="15.24" y="18.342" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -1998,8 +1998,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="J5" pad="2"/>
 <wire x1="17.78" y1="21.59" x2="19.35" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="15.74" y1="17.78" x2="17.78" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="4.58" y1="12.7" x2="15.74" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="10.66" y1="15.735" x2="4.58" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="4.58" y1="17.78" x2="15.74" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="10.66" y1="15.735" x2="4.58" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="10.16" y1="15.24" x2="10.66" y2="15.735" width="0" layer="19" extent="1-16"/>
 <wire x1="11.11" y1="20.2899" x2="10.66" y2="15.735" width="0" layer="19" extent="1-1"/>
 <wire x1="12.2" y1="20.32" x2="11.11" y2="20.2899" width="0" layer="19" extent="1-1"/>
@@ -2007,7 +2007,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="17.28" y1="5.08" x2="17.28" y2="2.54" width="0" layer="19" extent="1-1"/>
 <wire x1="7.12" y1="21.59" x2="11.11" y2="20.2899" width="0" layer="19" extent="1-1"/>
 <wire x1="3.1623" y1="31.75" x2="7.12" y2="21.59" width="0" layer="19" extent="1-16"/>
-<wire x1="16.06" y1="3.315" x2="4.58" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="16.06" y1="3.315" x2="4.58" y2="17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="J1" pad="GND"/>
@@ -2192,7 +2192,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="U$1" pad="22"/>
 <contactref element="J2" pad="5"/>
 <contactref element="J2" pad="5B"/>
-<wire x1="6.96" y1="10.615" x2="5.58" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="6.96" y1="10.615" x2="5.58" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="2.54" y1="11.43" x2="6.96" y2="10.615" width="0" layer="19" extent="1-1"/>
 <wire x1="0.97" y1="11.43" x2="2.54" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
