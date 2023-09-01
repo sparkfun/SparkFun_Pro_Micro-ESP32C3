@@ -9,15 +9,15 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="23" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="10" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -34,7 +34,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -2138,7 +2138,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <contactref element="STAT" pad="1"/>
 <wire x1="14.0843" y1="15.24" x2="18.264" y2="31.75" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="IO10">
+<signal name="IO10/I2S_WS">
 <contactref element="U$1" pad="16"/>
 <contactref element="U$2" pad="2B"/>
 <contactref element="U$2" pad="2"/>
@@ -2161,7 +2161,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="12.7" y1="7.62" x2="17.78" y2="11.43" width="0" layer="19" extent="16-16"/>
 <wire x1="10.16" y1="16.076" x2="12.7" y2="7.62" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="IO5/SCL">
+<signal name="IO5/SCL/BCK">
 <contactref element="J5" pad="4"/>
 <contactref element="U$1" pad="19"/>
 <contactref element="R4" pad="2"/>
@@ -2172,7 +2172,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="0.97" y1="19.05" x2="2.54" y2="19.05" width="0" layer="19" extent="1-1"/>
 <wire x1="9.36" y1="16.076" x2="5.58" y2="17.78" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="IO6/SDA">
+<signal name="IO6/SDA/I2S_SDO">
 <contactref element="J5" pad="3"/>
 <contactref element="U$1" pad="20"/>
 <contactref element="R3" pad="1"/>
@@ -2191,7 +2191,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <vertex x="1.27" y="5.08"/>
 </polygon>
 </signal>
-<signal name="IO7">
+<signal name="IO7/I2S_SDI">
 <contactref element="U$2" pad="3B"/>
 <contactref element="U$2" pad="3"/>
 <contactref element="U$1" pad="21"/>
