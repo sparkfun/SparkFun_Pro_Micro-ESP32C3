@@ -26855,12 +26855,6 @@ Pins 3</text>
 <pinref part="U$3" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<pinref part="STAT" gate="G$1" pin="2"/>
-<wire x1="563.88" y1="66.04" x2="563.88" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="563.88" y1="68.58" x2="566.42" y2="68.58" width="0.1524" layer="91"/>
-<label x="566.42" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <wire x1="421.64" y1="27.94" x2="419.1" y2="27.94" width="0.1524" layer="91" style="longdash"/>
 <label x="421.64" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="TP6" gate="G$1" pin="1"/>
@@ -26907,6 +26901,12 @@ Pins 3</text>
 <wire x1="396.24" y1="124.46" x2="391.16" y2="124.46" width="0.1524" layer="91"/>
 <label x="396.24" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U$2" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="STAT" gate="G$1" pin="2"/>
+<wire x1="563.88" y1="66.04" x2="563.88" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="68.58" x2="566.42" y2="68.58" width="0.1524" layer="91"/>
+<label x="566.42" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="IO9/BOOT" class="0">
