@@ -2099,39 +2099,34 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="17.78" y1="8.89" x2="16.06" y2="10.376" width="0" layer="19" extent="1-1"/>
 <wire x1="19.35" y1="8.89" x2="17.78" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="IO7/STAT">
-<contactref element="TP1" pad="1"/>
-<contactref element="U$1" pad="21"/>
-<contactref element="STAT" pad="2"/>
-<contactref element="U$2" pad="3B"/>
-<contactref element="U$2" pad="3"/>
-<wire x1="15.1257" y1="15.24" x2="15.24" y2="12.7" width="0" layer="19" extent="16-16"/>
-<wire x1="7.76" y1="16.076" x2="15.1257" y2="15.24" width="0" layer="19" extent="1-16"/>
-<wire x1="2.54" y1="13.97" x2="7.76" y2="16.076" width="0" layer="19" extent="1-1"/>
-<wire x1="0.97" y1="13.97" x2="2.54" y2="13.97" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="IOA3/PICO">
-<contactref element="TP4" pad="1"/>
+<signal name="IOA3/PICO/MTDI">
 <contactref element="U$1" pad="6"/>
 <contactref element="U$3" pad="5"/>
 <contactref element="U$3" pad="5B"/>
+<contactref element="TP6" pad="1"/>
 <wire x1="19.35" y1="19.05" x2="17.78" y2="19.05" width="0" layer="19" extent="1-1"/>
 <wire x1="16.06" y1="11.176" x2="17.78" y2="19.05" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="7.62" x2="16.06" y2="11.176" width="0" layer="19" extent="1-16"/>
+<wire x1="12.7" y1="12.7" x2="16.06" y2="11.176" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="IOA1/POCI">
+<signal name="IOA1/POCI/MTDO">
 <contactref element="U$1" pad="13"/>
 <contactref element="U$3" pad="6"/>
 <contactref element="U$3" pad="6B"/>
+<contactref element="TP1" pad="1"/>
+<contactref element="STAT" pad="2"/>
 <wire x1="19.35" y1="16.51" x2="17.78" y2="16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="14.16" y1="16.076" x2="17.78" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="15.1257" y1="15.24" x2="17.78" y2="16.51" width="0" layer="19" extent="16-16"/>
+<wire x1="14.16" y1="16.076" x2="15.1257" y2="15.24" width="0" layer="19" extent="1-16"/>
+<wire x1="15.24" y1="12.7" x2="15.1257" y2="15.24" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="IOA0/SCLK">
+<signal name="IOA0/SCLK/MTCK">
 <contactref element="U$1" pad="12"/>
 <contactref element="U$3" pad="7B"/>
 <contactref element="U$3" pad="7"/>
+<contactref element="TP3" pad="1"/>
 <wire x1="17.78" y1="13.97" x2="19.35" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="14.96" y1="16.076" x2="17.78" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="7.62" x2="17.78" y2="13.97" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="R2" pad="2"/>
@@ -2157,16 +2152,17 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="14.44" y1="20.81" x2="14.44" y2="24.91" width="0" layer="19" extent="1-1"/>
 <wire x1="6.16" y1="16.076" x2="14.44" y2="20.81" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="IOA4">
+<signal name="IOA4/MTMS">
 <contactref element="U$1" pad="18"/>
 <contactref element="U$3" pad="8B"/>
 <contactref element="U$3" pad="8"/>
+<contactref element="TP4" pad="1"/>
 <wire x1="17.78" y1="11.43" x2="19.35" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="16.076" x2="17.78" y2="11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="7.62" x2="17.78" y2="11.43" width="0" layer="19" extent="16-16"/>
+<wire x1="10.16" y1="16.076" x2="12.7" y2="7.62" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="IO5/SCL">
 <contactref element="J5" pad="4"/>
-<contactref element="TP6" pad="1"/>
 <contactref element="U$1" pad="19"/>
 <contactref element="R4" pad="2"/>
 <contactref element="U$2" pad="5"/>
@@ -2175,11 +2171,9 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="2.54" y1="19.05" x2="5.58" y2="17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="0.97" y1="19.05" x2="2.54" y2="19.05" width="0" layer="19" extent="1-1"/>
 <wire x1="9.36" y1="16.076" x2="5.58" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="12.7" x2="9.36" y2="16.076" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="IO6/SDA">
 <contactref element="J5" pad="3"/>
-<contactref element="TP3" pad="1"/>
 <contactref element="U$1" pad="20"/>
 <contactref element="R3" pad="1"/>
 <contactref element="U$2" pad="4B"/>
@@ -2188,7 +2182,6 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="8.56" y1="16.076" x2="9.66" y2="20.307" width="0" layer="19" extent="1-1"/>
 <wire x1="2.54" y1="16.51" x2="8.56" y2="16.076" width="0" layer="19" extent="1-1"/>
 <wire x1="0.97" y1="16.51" x2="2.54" y2="16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="7.62" x2="8.56" y2="16.076" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="3V3">
 <polygon width="0.1778" layer="15">
@@ -2197,6 +2190,13 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <vertex x="19.05" y="5.08"/>
 <vertex x="1.27" y="5.08"/>
 </polygon>
+</signal>
+<signal name="IO7">
+<contactref element="U$2" pad="3B"/>
+<contactref element="U$2" pad="3"/>
+<contactref element="U$1" pad="21"/>
+<wire x1="2.54" y1="13.97" x2="7.76" y2="16.076" width="0" layer="19" extent="1-1"/>
+<wire x1="0.97" y1="13.97" x2="2.54" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

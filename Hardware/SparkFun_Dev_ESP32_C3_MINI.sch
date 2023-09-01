@@ -26826,35 +26826,7 @@ Pins 3</text>
 <pinref part="U$3" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="IO7/STAT" class="0">
-<segment>
-<wire x1="685.8" y1="215.9" x2="678.18" y2="215.9" width="0.1524" layer="91"/>
-<label x="685.8" y="215.9" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="IO7"/>
-</segment>
-<segment>
-<pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="403.86" y1="27.94" x2="408.94" y2="27.94" width="0.1524" layer="91" style="longdash"/>
-<label x="403.86" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="396.24" y1="127" x2="391.16" y2="127" width="0.1524" layer="91"/>
-<label x="396.24" y="127" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<pinref part="STAT" gate="G$1" pin="2"/>
-<wire x1="563.88" y1="66.04" x2="563.88" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="563.88" y1="68.58" x2="566.42" y2="68.58" width="0.1524" layer="91"/>
-<label x="566.42" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="IOA3/PICO" class="0">
-<segment>
-<pinref part="TP4" gate="G$1" pin="1"/>
-<wire x1="419.1" y1="17.78" x2="421.64" y2="17.78" width="0.1524" layer="91" style="longdash"/>
-<label x="421.64" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
+<net name="IOA3/PICO/MTDI" class="0">
 <segment>
 <wire x1="685.8" y1="226.06" x2="678.18" y2="226.06" width="0.1524" layer="91"/>
 <label x="685.8" y="226.06" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -26865,8 +26837,13 @@ Pins 3</text>
 <label x="436.88" y="132.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U$3" gate="G$1" pin="5"/>
 </segment>
+<segment>
+<pinref part="TP6" gate="G$1" pin="1"/>
+<wire x1="419.1" y1="27.94" x2="421.64" y2="27.94" width="0.1524" layer="91" style="longdash"/>
+<label x="421.64" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
 </net>
-<net name="IOA1/POCI" class="0">
+<net name="IOA1/POCI/MTDO" class="0">
 <segment>
 <wire x1="685.8" y1="231.14" x2="678.18" y2="231.14" width="0.1524" layer="91" style="longdash"/>
 <label x="685.8" y="231.14" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -26877,8 +26854,19 @@ Pins 3</text>
 <label x="436.88" y="129.54" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U$3" gate="G$1" pin="6"/>
 </segment>
+<segment>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="403.86" y1="27.94" x2="408.94" y2="27.94" width="0.1524" layer="91" style="longdash"/>
+<label x="403.86" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="STAT" gate="G$1" pin="2"/>
+<wire x1="563.88" y1="66.04" x2="563.88" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="68.58" x2="566.42" y2="68.58" width="0.1524" layer="91"/>
+<label x="566.42" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
 </net>
-<net name="IOA0/SCLK" class="0">
+<net name="IOA0/SCLK/MTCK" class="0">
 <segment>
 <wire x1="685.8" y1="233.68" x2="678.18" y2="233.68" width="0.1524" layer="91" style="longdash"/>
 <label x="685.8" y="233.68" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -26888,6 +26876,11 @@ Pins 3</text>
 <wire x1="436.88" y1="127" x2="444.5" y2="127" width="0.1524" layer="91"/>
 <label x="436.88" y="127" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U$3" gate="G$1" pin="7"/>
+</segment>
+<segment>
+<pinref part="TP3" gate="G$1" pin="1"/>
+<wire x1="408.94" y1="17.78" x2="403.86" y2="17.78" width="0.1524" layer="91" style="longdash"/>
+<label x="403.86" y="17.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -26929,7 +26922,7 @@ Pins 3</text>
 <pinref part="U$1" gate="G$1" pin="IO9"/>
 </segment>
 </net>
-<net name="IOA4" class="0">
+<net name="IOA4/MTMS" class="0">
 <segment>
 <wire x1="685.8" y1="223.52" x2="678.18" y2="223.52" width="0.1524" layer="91" style="longdash"/>
 <label x="685.8" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -26940,17 +26933,17 @@ Pins 3</text>
 <label x="436.88" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U$3" gate="G$1" pin="8"/>
 </segment>
+<segment>
+<pinref part="TP4" gate="G$1" pin="1"/>
+<wire x1="419.1" y1="17.78" x2="421.64" y2="17.78" width="0.1524" layer="91" style="longdash"/>
+<label x="421.64" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
 </net>
 <net name="IO5/SCL" class="0">
 <segment>
 <wire x1="426.72" y1="76.2" x2="421.64" y2="76.2" width="0.1524" layer="91"/>
 <label x="426.72" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J5" gate="J1" pin="4"/>
-</segment>
-<segment>
-<pinref part="TP6" gate="G$1" pin="1"/>
-<wire x1="419.1" y1="27.94" x2="421.64" y2="27.94" width="0.1524" layer="91" style="longdash"/>
-<label x="421.64" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="685.8" y1="220.98" x2="678.18" y2="220.98" width="0.1524" layer="91"/>
@@ -26980,11 +26973,6 @@ Pins 3</text>
 <pinref part="U$1" gate="G$1" pin="IO6"/>
 </segment>
 <segment>
-<pinref part="TP3" gate="G$1" pin="1"/>
-<wire x1="408.94" y1="17.78" x2="403.86" y2="17.78" width="0.1524" layer="91" style="longdash"/>
-<label x="403.86" y="17.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <wire x1="396.24" y1="129.54" x2="391.16" y2="129.54" width="0.1524" layer="91"/>
 <label x="396.24" y="129.54" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="U$2" gate="G$1" pin="4"/>
@@ -26993,6 +26981,18 @@ Pins 3</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="721.36" y1="127" x2="723.9" y2="127" width="0.1524" layer="91"/>
 <label x="723.9" y="127" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+</segment>
+</net>
+<net name="IO7" class="0">
+<segment>
+<wire x1="396.24" y1="127" x2="391.16" y2="127" width="0.1524" layer="91"/>
+<label x="396.24" y="127" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<wire x1="685.8" y1="215.9" x2="678.18" y2="215.9" width="0.1524" layer="91"/>
+<label x="685.8" y="215.9" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="IO7"/>
 </segment>
 </net>
 </nets>
