@@ -26082,6 +26082,9 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 <class number="1" name="Power" width="0.127" drill="0">
 <clearance class="1" value="0.1778"/>
 </class>
+<class number="2" name="USB" width="0.254" drill="0">
+<clearance class="2" value="0.1016"/>
+</class>
 </classes>
 <parts>
 <part name="J1" library="SparkFun-Connectors" deviceset="USB_C" device="_4-LAYER_PADS" value="USB Female Type C Connector"/>
@@ -26446,7 +26449,7 @@ Pins 3</text>
 <busses>
 </busses>
 <nets>
-<net name="IO18/USB_N" class="0">
+<net name="IO18/USB_N" class="2">
 <segment>
 <wire x1="678.18" y1="205.74" x2="685.8" y2="205.74" width="0.1524" layer="91"/>
 <label x="685.8" y="205.74" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -26463,7 +26466,7 @@ Pins 3</text>
 <junction x="411.48" y="220.98"/>
 </segment>
 </net>
-<net name="IO19/USB_P" class="0">
+<net name="IO19/USB_P" class="2">
 <segment>
 <wire x1="678.18" y1="203.2" x2="685.8" y2="203.2" width="0.1524" layer="91"/>
 <label x="685.8" y="203.2" size="1.27" layer="95" font="vector" xref="yes"/>
