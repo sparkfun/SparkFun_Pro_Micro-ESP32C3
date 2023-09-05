@@ -1960,7 +1960,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="12.446" y="23.368"/>
 <vertex x="10.4648" y="23.368"/>
 </polygon>
-<via x="11.43" y="22.987" extent="1-16" drill="0.3048"/>
+<via x="11.5062" y="22.987" extent="1-16" drill="0.3048"/>
 <wire x1="15.875" y1="19.55" x2="16.5782" y2="19.55" width="0.2032" layer="1"/>
 <wire x1="16.5782" y1="19.55" x2="16.5862" y2="19.558" width="0.2032" layer="1"/>
 <via x="16.5862" y="19.558" extent="1-16" drill="0.3048"/>
@@ -1976,6 +1976,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="8.1026" y1="23.622" x2="7.62" y2="24.1046" width="0.2032" layer="16"/>
 <wire x1="7.62" y1="24.765" x2="7.62" y2="24.1046" width="0.2032" layer="16"/>
 <wire x1="8.128" y1="23.622" x2="8.1026" y2="23.622" width="0.2032" layer="16"/>
+<via x="10.8204" y="22.987" extent="1-16" drill="0.3048"/>
 <wire x1="17.28" y1="7.4422" x2="17.28" y2="6.0198" width="0" layer="19" extent="1-1"/>
 <wire x1="16.06" y1="8.7252" x2="17.28" y2="7.4422" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2215,9 +2216,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="6.96" y1="16.0252" x2="6.96" y2="15.7738" width="0.2032" layer="1"/>
 <wire x1="6.96" y1="15.7738" x2="6.2484" y2="15.0622" width="0.2032" layer="1"/>
 <via x="6.2484" y="15.0622" extent="1-16" drill="0.3048"/>
-<wire x1="2.54" y1="8.89" x2="5.08" y2="8.89" width="0.2032" layer="2"/>
-<wire x1="5.08" y1="8.89" x2="6.2484" y2="10.0584" width="0.2032" layer="2"/>
-<wire x1="6.2484" y1="10.0584" x2="6.2484" y2="15.0622" width="0.2032" layer="2"/>
+<wire x1="2.54" y1="8.89" x2="5.08" y2="8.89" width="0.2032" layer="15"/>
+<wire x1="5.08" y1="8.89" x2="6.2484" y2="10.0584" width="0.2032" layer="15"/>
+<wire x1="6.2484" y1="10.0584" x2="6.2484" y2="15.0622" width="0.2032" layer="15"/>
 <wire x1="0.97" y1="8.89" x2="2.54" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
@@ -2376,8 +2377,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="6.16" y1="16.2792" x2="6.16" y2="16.0252" width="0.254" layer="1"/>
 <wire x1="5.88" y1="20.81" x2="5.88" y2="21.844" width="0.2032" layer="1"/>
 <via x="5.88" y="21.844" extent="1-16" drill="0.3048"/>
-<wire x1="5.88" y1="21.844" x2="5.88" y2="17.2084" width="0.2032" layer="2"/>
-<wire x1="5.88" y1="17.2084" x2="5.5626" y2="16.891" width="0.2032" layer="2"/>
+<wire x1="5.88" y1="21.844" x2="5.88" y2="17.2084" width="0.2032" layer="15"/>
+<wire x1="5.88" y1="17.2084" x2="5.5626" y2="16.891" width="0.2032" layer="15"/>
 <via x="5.5626" y="16.891" extent="1-16" drill="0.3048"/>
 <wire x1="6.16" y1="16.0252" x2="6.16" y2="16.2936" width="0.2032" layer="1"/>
 <wire x1="6.16" y1="16.2936" x2="5.5626" y2="16.891" width="0.2032" layer="1"/>
@@ -2450,7 +2451,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U$2" pad="3B"/>
 <contactref element="U$2" pad="3"/>
 <contactref element="U1" pad="21"/>
-<wire x1="2.54" y1="13.97" x2="7.76" y2="16.0252" width="0" layer="19" extent="1-1"/>
+<wire x1="7.76" y1="16.0252" x2="7.76" y2="15.7864" width="0.2032" layer="1"/>
+<wire x1="6.858" y1="14.8844" x2="6.858" y2="12.954" width="0.2032" layer="1"/>
+<via x="6.858" y="12.954" extent="1-16" drill="0.3048"/>
+<wire x1="7.76" y1="15.7864" x2="6.858" y2="14.8844" width="0.2032" layer="1"/>
+<wire x1="6.858" y1="12.954" x2="3.556" y2="12.954" width="0.2032" layer="2"/>
+<wire x1="3.556" y1="12.954" x2="2.54" y2="13.97" width="0.2032" layer="2"/>
 <wire x1="0.97" y1="13.97" x2="2.54" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
