@@ -26894,7 +26894,7 @@ Pins 3</text>
 <wire x1="563.88" y1="53.34" x2="563.88" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IO10/I2S_WS" class="0">
+<net name="IO10/I2S_FS" class="0">
 <segment>
 <wire x1="685.8" y1="208.28" x2="678.18" y2="208.28" width="0.1524" layer="91" style="longdash"/>
 <label x="685.8" y="208.28" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -26942,7 +26942,7 @@ Pins 3</text>
 <label x="421.64" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="IO5/SCL/BCK" class="0">
+<net name="IO5/SCL/I2S_SCK" class="0">
 <segment>
 <wire x1="426.72" y1="76.2" x2="421.64" y2="76.2" width="0.1524" layer="91"/>
 <label x="426.72" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
