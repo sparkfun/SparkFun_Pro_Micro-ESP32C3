@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="23" fill="1" visible="yes" active="yes"/>
@@ -17,14 +17,14 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -34,7 +34,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -44,7 +44,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -1840,8 +1840,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="TP4" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="12.7" y="10.16" smashed="yes" rot="MR0"/>
 <element name="TP5" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="12.7" y="12.7" smashed="yes" rot="MR0"/>
 <element name="TP6" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="12.7" y="15.24" smashed="yes" rot="MR0"/>
-<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="2.54" y="30.48" smashed="yes" rot="MR0"/>
-<element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="2.54" y="30.48" smashed="yes"/>
+<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="2.3114" y="30.607" smashed="yes" rot="MR0"/>
+<element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="2.3114" y="30.607" smashed="yes"/>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="2.54" y="6.35" smashed="yes"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="2.54" y="6.35" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="QWIIC_3MM" value="QWIIC_LOGO_3MM" x="14.605" y="18.415" smashed="yes" rot="R90"/>
@@ -1960,7 +1960,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="12.446" y="23.368"/>
 <vertex x="10.4648" y="23.368"/>
 </polygon>
-<via x="11.5062" y="22.987" extent="1-16" drill="0.3048"/>
+<via x="11.4808" y="22.987" extent="1-16" drill="0.3048"/>
 <wire x1="15.875" y1="19.55" x2="16.5782" y2="19.55" width="0.2032" layer="1"/>
 <wire x1="16.5782" y1="19.55" x2="16.5862" y2="19.558" width="0.2032" layer="1"/>
 <via x="16.5862" y="19.558" extent="1-16" drill="0.3048"/>
@@ -1977,8 +1977,13 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="7.62" y1="24.765" x2="7.62" y2="24.1046" width="0.2032" layer="16"/>
 <wire x1="8.128" y1="23.622" x2="8.1026" y2="23.622" width="0.2032" layer="16"/>
 <via x="10.8204" y="22.987" extent="1-16" drill="0.3048"/>
-<wire x1="17.28" y1="7.4422" x2="17.28" y2="6.0198" width="0" layer="19" extent="1-1"/>
-<wire x1="16.06" y1="8.7252" x2="17.28" y2="7.4422" width="0" layer="19" extent="1-1"/>
+<wire x1="15.8242" y1="6.731" x2="15.1892" y2="7.366" width="0.2032" layer="2"/>
+<wire x1="15.1892" y1="8.7122" x2="15.1892" y2="7.366" width="0.2032" layer="2"/>
+<wire x1="15.8242" y1="6.731" x2="17.2466" y2="6.731" width="0.2032" layer="2"/>
+<via x="17.2466" y="6.731" extent="1-16" drill="0.3048"/>
+<wire x1="17.28" y1="7.4422" x2="17.28" y2="6.7644" width="0.2032" layer="1"/>
+<wire x1="17.28" y1="6.7644" x2="17.2466" y2="6.731" width="0.2032" layer="1"/>
+<wire x1="17.28" y1="6.0198" x2="17.28" y2="6.7644" width="0.2032" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="J1" pad="GND"/>
@@ -2060,7 +2065,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="10.16" y1="24.1554" x2="9.4234" y2="23.4188" width="0.2032" layer="1"/>
 <wire x1="9.4234" y1="23.4188" x2="9.3218" y2="23.4188" width="0.2032" layer="1"/>
 <via x="9.3218" y="23.4188" extent="1-16" drill="0.3048"/>
-<via x="4.7244" y="17.0942" extent="1-16" drill="0.3048"/>
+<via x="4.8006" y="17.0942" extent="1-16" drill="0.3048"/>
 <via x="5.08" y="22.86" extent="1-16" drill="0.3048"/>
 <via x="15.24" y="22.86" extent="1-16" drill="0.3048"/>
 <via x="9.0932" y="14.4526" extent="1-16" drill="0.3048"/>
@@ -2074,8 +2079,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="15.875" y="27.94" extent="1-16" drill="0.3048"/>
 <via x="11.938" y="30.4546" extent="1-16" drill="0.3048"/>
 <via x="18.3388" y="6.731" extent="1-16" drill="0.3048"/>
-<wire x1="13.2" y1="22.86" x2="15.24" y2="22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="12.7" x2="16.06" y2="15.1252" width="0" layer="19" extent="1-16"/>
+<via x="17.5006" y="15.24" extent="1-16" drill="0.3048"/>
+<via x="13.9192" y="22.86" extent="1-16" drill="0.3048"/>
+<via x="13.97" y="10.16" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$4">
 <contactref element="R3" pad="2"/>
@@ -2231,12 +2237,14 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="D1" pad="A"/>
 <contactref element="PWR" pad="1"/>
 <wire x1="7.0993" y1="21.59" x2="7.0993" y2="22.606" width="0.2032" layer="16"/>
-<wire x1="7.0993" y1="22.606" x2="3.683" y2="26.0223" width="0.2032" layer="16"/>
-<wire x1="3.683" y1="30.353" x2="3.175" y2="30.861" width="0.2032" layer="16"/>
+<wire x1="7.0993" y1="22.606" x2="5.0546" y2="24.6507" width="0.2032" layer="16"/>
+<wire x1="5.0546" y1="27.3558" x2="3.937" y2="28.4734" width="0.2032" layer="16"/>
+<wire x1="3.937" y1="30.099" x2="3.175" y2="30.861" width="0.2032" layer="16"/>
+<wire x1="3.937" y1="30.099" x2="3.937" y2="28.4734" width="0.2032" layer="16"/>
 <via x="3.175" y="30.861" extent="1-16" drill="0.3048"/>
 <wire x1="3.175" y1="30.861" x2="3.175" y2="31.127" width="0.2032" layer="1"/>
 <wire x1="3.175" y1="31.127" x2="2.425" y2="31.877" width="0.2032" layer="1"/>
-<wire x1="3.683" y1="26.0223" x2="3.683" y2="30.353" width="0.2032" layer="16"/>
+<wire x1="5.0546" y1="24.6507" x2="5.0546" y2="27.3558" width="0.2032" layer="16"/>
 </signal>
 <signal name="IO21/RXI">
 <contactref element="U$2" pad="8B"/>
@@ -2246,11 +2254,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="4.3488" y1="10.414" x2="5.588" y2="10.414" width="0.2032" layer="1"/>
 <via x="5.588" y="10.414" extent="1-16" drill="0.3048"/>
 <wire x1="5.588" y1="10.414" x2="5.588" y2="12.6746" width="0.2032" layer="15"/>
-<wire x1="4.191" y1="14.0716" x2="4.191" y2="26.5176" width="0.2032" layer="15"/>
-<via x="4.191" y="26.5176" extent="1-16" drill="0.3048"/>
-<wire x1="5.588" y1="12.6746" x2="4.191" y2="14.0716" width="0.2032" layer="15"/>
-<wire x1="2.54" y1="26.67" x2="4.0386" y2="26.67" width="0.2032" layer="1"/>
-<wire x1="4.0386" y1="26.67" x2="4.191" y2="26.5176" width="0.2032" layer="1"/>
+<wire x1="4.2418" y1="14.0208" x2="4.2418" y2="26.5176" width="0.2032" layer="15"/>
+<via x="4.2418" y="26.5176" extent="1-16" drill="0.3048"/>
+<wire x1="5.588" y1="12.6746" x2="4.2418" y2="14.0208" width="0.2032" layer="15"/>
+<wire x1="2.54" y1="26.67" x2="4.0894" y2="26.67" width="0.2032" layer="1"/>
+<wire x1="4.0894" y1="26.67" x2="4.2418" y2="26.5176" width="0.2032" layer="1"/>
 <wire x1="2.54" y1="26.67" x2="0.97" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IO20/TXO">
@@ -2459,7 +2467,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="8.4582" y="17.2212" extent="1-16" drill="0.3048"/>
 <wire x1="8.56" y1="16.0252" x2="8.56" y2="17.1194" width="0.2032" layer="1"/>
 <wire x1="8.56" y1="17.1194" x2="8.4582" y2="17.2212" width="0.2032" layer="1"/>
-<wire x1="2.54" y1="16.51" x2="8.4582" y2="17.2212" width="0" layer="19" extent="1-1"/>
+<wire x1="8.4582" y1="17.2212" x2="7.366" y2="16.129" width="0.2032" layer="2"/>
+<wire x1="2.921" y1="16.129" x2="2.54" y2="16.51" width="0.2032" layer="2"/>
+<wire x1="7.366" y1="16.129" x2="2.921" y2="16.129" width="0.2032" layer="2"/>
 <wire x1="0.97" y1="16.51" x2="2.54" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IO7/I2S_SDI">
@@ -2475,9 +2485,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="3.7592" y1="12.7508" x2="2.54" y2="13.97" width="0.2032" layer="2"/>
 <wire x1="0.97" y1="13.97" x2="2.54" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$16">
-<via x="13.97" y="10.16" extent="1-16" drill="0.3048"/>
-</signal>
 <signal name="N$20">
 <via x="15.3924" y="31.75" extent="1-16" drill="0.3048"/>
 </signal>
@@ -2490,23 +2497,196 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="5,1,daa0da8082a782bd"/>
-<approved hash="5,1,77392ede63c6f4a3"/>
-<approved hash="5,16,69788864083490bd"/>
-<approved hash="5,16,9cc3722404349346"/>
-<approved hash="5,16,be7063198a2f6d66"/>
-<approved hash="6,1,630063027efe7efc"/>
-<approved hash="6,1,549861488ebc8a99"/>
-<approved hash="6,1,dc90d936cacace91"/>
-<approved hash="6,1,63006302befebefc"/>
-<approved hash="5,1,0bc22e1a5edcadfe"/>
-<approved hash="5,16,9081d569a34ef9fd"/>
-<approved hash="19,1,1be512aea2768b36"/>
-<approved hash="19,1,73d08935ce28e600"/>
-<approved hash="19,1,6ee9a422e7259fe9"/>
-<approved hash="19,1,61b80193dd96bb71"/>
-<approved hash="19,1,90bfe906b755c07c"/>
-<approved hash="19,1,444ff8fb5fecd8cd"/>
+<approved hash="21,19,63d51fd71fe91d15"/>
+<approved hash="21,19,5776557455745776"/>
+<approved hash="21,19,2776257425742776"/>
+<approved hash="21,19,5776557455745776"/>
+<approved hash="21,19,2776257425742776"/>
+<approved hash="21,19,2776257425742776"/>
+<approved hash="21,19,2776257425742776"/>
+<approved hash="21,19,5776557455745776"/>
+<approved hash="21,19,5776557455745776"/>
+<approved hash="21,19,2776257425742776"/>
+<approved hash="21,19,5776557455745776"/>
+<approved hash="21,19,5776557455745776"/>
+<approved hash="21,19,2776257425742776"/>
+<approved hash="21,19,2776257425742776"/>
+<approved hash="19,1,4ae76cf2f943b9ae"/>
+<approved hash="19,1,0c966c9efd5ffbaf"/>
+<approved hash="19,1,00356cd6fe1ff404"/>
+<approved hash="19,1,b9406cf2fee34da9"/>
+<approved hash="19,1,b3f4ada20363fbf5"/>
+<approved hash="19,1,c421adce00b78f98"/>
+<approved hash="19,1,f585adce077fb9f4"/>
+<approved hash="19,1,e148adfa0053aa21"/>
+<approved hash="19,1,0622adce00df4df3"/>
+<approved hash="19,1,d8bead3e01d79297"/>
+<approved hash="19,1,ec3bad220073a7aa"/>
+<approved hash="19,1,53596c1efe4fa7f0"/>
+<approved hash="19,1,67dc6c02ffeb92cd"/>
+<approved hash="19,1,7b436cf2fe8b8fc2"/>
+<approved hash="19,1,bf57adea0023f45e"/>
+<approved hash="19,2,53596c1efe4fa7f0"/>
+<approved hash="19,2,67dc6c02ffeb92cd"/>
+<approved hash="19,2,7b436cf2fe8b8fc2"/>
+<approved hash="19,2,bf57adea0023f45e"/>
+<approved hash="19,2,4ae76cf2f943b9ae"/>
+<approved hash="19,2,0c966c9efd5ffbaf"/>
+<approved hash="19,2,00356cd6fe1ff404"/>
+<approved hash="19,2,b9406cf2fee34da9"/>
+<approved hash="19,2,b3f4ada20363fbf5"/>
+<approved hash="19,2,c421adce00b78f98"/>
+<approved hash="19,2,f585adce077fb9f4"/>
+<approved hash="19,2,e148adfa0053aa21"/>
+<approved hash="19,2,0622adce00df4df3"/>
+<approved hash="19,2,d8bead3e01d79297"/>
+<approved hash="19,2,ec3bad220073a7aa"/>
+<approved hash="19,15,4ae76cf2f943b9ae"/>
+<approved hash="19,15,0c966c9efd5ffbaf"/>
+<approved hash="19,15,00356cd6fe1ff404"/>
+<approved hash="19,15,b9406cf2fee34da9"/>
+<approved hash="19,15,b3f4ada20363fbf5"/>
+<approved hash="19,15,c421adce00b78f98"/>
+<approved hash="19,15,f585adce077fb9f4"/>
+<approved hash="19,15,e148adfa0053aa21"/>
+<approved hash="19,15,0622adce00df4df3"/>
+<approved hash="19,15,d8bead3e01d79297"/>
+<approved hash="19,15,ec3bad220073a7aa"/>
+<approved hash="19,15,53596c1efe4fa7f0"/>
+<approved hash="19,15,67dc6c02ffeb92cd"/>
+<approved hash="19,15,7b436cf2fe8b8fc2"/>
+<approved hash="19,15,bf57adea0023f45e"/>
+<approved hash="19,16,70d80cb820ba24d8"/>
+<approved hash="19,16,ef9a4c2a8e2a86fa"/>
+<approved hash="19,16,4ae76cf2f943b9ae"/>
+<approved hash="19,16,20da2cbb90b994da"/>
+<approved hash="19,16,0c966c9efd5ffbaf"/>
+<approved hash="19,16,00356cd6fe1ff404"/>
+<approved hash="19,16,b9406cf2fee34da9"/>
+<approved hash="19,16,b3f4ada20363fbf5"/>
+<approved hash="19,16,c421adce00b78f98"/>
+<approved hash="19,16,0e9b0ef811792e9b"/>
+<approved hash="19,16,ad09bf71f3871331"/>
+<approved hash="19,16,f585adce077fb9f4"/>
+<approved hash="19,16,e148adfa0053aa21"/>
+<approved hash="19,16,a31ba5f47ff5421b"/>
+<approved hash="19,16,0622adce00df4df3"/>
+<approved hash="19,16,d8bead3e01d79297"/>
+<approved hash="19,16,ec3bad220073a7aa"/>
+<approved hash="19,16,53596c1efe4fa7f0"/>
+<approved hash="19,16,67dc6c02ffeb92cd"/>
+<approved hash="19,16,7b436cf2fe8b8fc2"/>
+<approved hash="19,16,bf57adea0023f45e"/>
+<approved hash="6,1,22e05ba2dba1a2e3"/>
+<approved hash="6,1,74805ba2dba2f480"/>
+<approved hash="4,1,4925a912dc292cf4"/>
+<approved hash="4,1,1734f7159e2a6ed5"/>
+<approved hash="4,1,af9b4f843a9bc57a"/>
+<approved hash="4,1,9829a3228988459d"/>
+<approved hash="4,1,9827e12fcb9d4587"/>
+<approved hash="4,1,983d1ed4c406466d"/>
+<approved hash="4,1,9939f406deac4485"/>
+<approved hash="4,1,992f0a75317f449b"/>
+<approved hash="4,1,9857f991e2db45eb"/>
+<approved hash="4,1,983fd0bbfa693a6f"/>
+<approved hash="4,1,9915cc00f7724495"/>
+<approved hash="4,1,991fb61d9c87448b"/>
+<approved hash="4,1,5d1ebd8b28e0df6f"/>
+<approved hash="4,1,5b68bb59ce0e3e39"/>
+<approved hash="4,1,70f79060c3973306"/>
+<approved hash="4,1,6dfa8d87f49c048b"/>
+<approved hash="4,1,1b01fb8eeae51a90"/>
+<approved hash="4,1,0153e15c90336032"/>
+<approved hash="4,1,c37354e99040f0c8"/>
+<approved hash="4,1,2ab9ab2e4b58da35"/>
+<approved hash="4,1,789d9d4a7d9488a9"/>
+<approved hash="4,1,c3f5405884edf056"/>
+<approved hash="4,1,6ca66ed1895d9c30"/>
+<approved hash="4,1,414f82b8622ab1db"/>
+<approved hash="4,1,f2fb7dafb91af0b8"/>
+<approved hash="4,1,d3016886ac0ff17a"/>
+<approved hash="4,1,bc031a15a14c8fd8"/>
+<approved hash="4,1,c37d16e4d259f0de"/>
+<approved hash="4,1,c3eb027bc6e6f078"/>
+<approved hash="4,1,3071580a9f53f3aa"/>
+<approved hash="4,1,d37baeb36a0ef178"/>
+<approved hash="4,1,30ebd18c318ec0e7"/>
+<approved hash="4,1,268cdf6b3f97d6ae"/>
+<approved hash="4,1,5c42b5355521ac3c"/>
+<approved hash="4,1,6ad08f876fb39ae2"/>
+<approved hash="4,1,9e2374c49b266e3f"/>
+<approved hash="4,2,4925a912dc292cf4"/>
+<approved hash="4,2,1734f7159e2a6ed5"/>
+<approved hash="4,2,af9b4f843a9bc57a"/>
+<approved hash="4,2,5d1ebd8b28e0df6f"/>
+<approved hash="4,2,5b68bb59ce0e3e39"/>
+<approved hash="4,2,70f79060c3973306"/>
+<approved hash="4,2,6dfa8d87f49c048b"/>
+<approved hash="4,2,1b01fb8eeae51a90"/>
+<approved hash="4,2,0153e15c90336032"/>
+<approved hash="4,2,2ab9ab2e4b58da35"/>
+<approved hash="4,2,789d9d4a7d9488a9"/>
+<approved hash="4,2,6ca66ed1895d9c30"/>
+<approved hash="4,2,414f82b8622ab1db"/>
+<approved hash="4,2,30ebd18c318ec0e7"/>
+<approved hash="4,2,268cdf6b3f97d6ae"/>
+<approved hash="4,2,5c42b5355521ac3c"/>
+<approved hash="4,2,6ad08f876fb39ae2"/>
+<approved hash="4,2,9e2374c49b266e3f"/>
+<approved hash="4,15,4925a912dc292cf4"/>
+<approved hash="4,15,1734f7159e2a6ed5"/>
+<approved hash="4,15,af9b4f843a9bc57a"/>
+<approved hash="4,15,5d1ebd8b28e0df6f"/>
+<approved hash="4,15,5b68bb59ce0e3e39"/>
+<approved hash="4,15,70f79060c3973306"/>
+<approved hash="4,15,6dfa8d87f49c048b"/>
+<approved hash="4,15,1b01fb8eeae51a90"/>
+<approved hash="4,15,0153e15c90336032"/>
+<approved hash="4,15,2ab9ab2e4b58da35"/>
+<approved hash="4,15,789d9d4a7d9488a9"/>
+<approved hash="4,15,6ca66ed1895d9c30"/>
+<approved hash="4,15,414f82b8622ab1db"/>
+<approved hash="4,15,30ebd18c318ec0e7"/>
+<approved hash="4,15,268cdf6b3f97d6ae"/>
+<approved hash="4,15,5c42b5355521ac3c"/>
+<approved hash="4,15,6ad08f876fb39ae2"/>
+<approved hash="4,15,9e2374c49b266e3f"/>
+<approved hash="4,16,4925a912dc292cf4"/>
+<approved hash="4,16,1734f7159e2a6ed5"/>
+<approved hash="4,16,af9b4f843a9bc57a"/>
+<approved hash="4,16,9829a3228988459d"/>
+<approved hash="4,16,9827e12fcb9d4587"/>
+<approved hash="4,16,983d1ed4c406466d"/>
+<approved hash="4,16,9939f406deac4485"/>
+<approved hash="4,16,992f0a75317f449b"/>
+<approved hash="4,16,9857f991e2db45eb"/>
+<approved hash="4,16,983fd0bbfa693a6f"/>
+<approved hash="4,16,9915cc00f7724495"/>
+<approved hash="4,16,991fb61d9c87448b"/>
+<approved hash="4,16,5d1ebd8b28e0df6f"/>
+<approved hash="4,16,5b68bb59ce0e3e39"/>
+<approved hash="4,16,70f79060c3973306"/>
+<approved hash="4,16,6dfa8d87f49c048b"/>
+<approved hash="4,16,1b01fb8eeae51a90"/>
+<approved hash="4,16,0153e15c90336032"/>
+<approved hash="4,16,c37354e99040f0c8"/>
+<approved hash="4,16,2ab9ab2e4b58da35"/>
+<approved hash="4,16,789d9d4a7d9488a9"/>
+<approved hash="4,16,c3f5405884edf056"/>
+<approved hash="4,16,6ca66ed1895d9c30"/>
+<approved hash="4,16,414f82b8622ab1db"/>
+<approved hash="4,16,f2fb7dafb91af0b8"/>
+<approved hash="4,16,d3016886ac0ff17a"/>
+<approved hash="4,16,bc031a15a14c8fd8"/>
+<approved hash="4,16,c37d16e4d259f0de"/>
+<approved hash="4,16,c3eb027bc6e6f078"/>
+<approved hash="4,16,3071580a9f53f3aa"/>
+<approved hash="4,16,d37baeb36a0ef178"/>
+<approved hash="4,16,30ebd18c318ec0e7"/>
+<approved hash="4,16,268cdf6b3f97d6ae"/>
+<approved hash="4,16,5c42b5355521ac3c"/>
+<approved hash="4,16,6ad08f876fb39ae2"/>
+<approved hash="4,16,9e2374c49b266e3f"/>
 </errors>
 </board>
 </drawing>
