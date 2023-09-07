@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="63" fill="3" visible="no" active="no"/>
@@ -26654,26 +26654,26 @@ shield from GND</text>
 </net>
 <net name="IO21/RXI" class="0">
 <segment>
-<wire x1="678.18" y1="198.12" x2="685.8" y2="198.12" width="0.1524" layer="91"/>
-<label x="685.8" y="198.12" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="TXD/IO21"/>
-</segment>
-<segment>
 <wire x1="391.16" y1="139.7" x2="396.24" y2="139.7" width="0.1524" layer="91"/>
 <label x="396.24" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U$2" gate="G$1" pin="8"/>
 </segment>
-</net>
-<net name="IO20/TXO" class="0">
 <segment>
 <wire x1="678.18" y1="200.66" x2="685.8" y2="200.66" width="0.1524" layer="91"/>
 <label x="685.8" y="200.66" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="RXD/IO20"/>
 </segment>
+</net>
+<net name="IO20/TXO" class="0">
 <segment>
 <wire x1="391.16" y1="142.24" x2="396.24" y2="142.24" width="0.1524" layer="91"/>
 <label x="396.24" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U$2" gate="G$1" pin="9"/>
+</segment>
+<segment>
+<wire x1="678.18" y1="198.12" x2="685.8" y2="198.12" width="0.1524" layer="91"/>
+<label x="685.8" y="198.12" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="TXD/IO21"/>
 </segment>
 </net>
 <net name="IOA2" class="0">
