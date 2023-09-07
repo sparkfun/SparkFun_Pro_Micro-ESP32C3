@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="63" fill="3" visible="no" active="no"/>
@@ -24466,22 +24466,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
 </polygon>
 </package>
-<package name="1210">
-<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
-<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -24725,87 +24709,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name="">
 <attribute name="PROD_ID" value="CAP-16523" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="10UF" prefix="C">
-<description>&lt;h3&gt;10.0µF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-6.3V-20%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-11015"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1206-6.3V-20%" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-10057"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0805-10V-10%" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-11330"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1210-50V-20%" package="1210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-09824"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0805-25V-10%" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-14259"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402T-6.3V-20%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-14848" constant="no"/>
-<attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -26124,10 +26027,6 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device="BLANK"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="10UF" device="-0402T-6.3V-20%" value="10uF"/>
-<part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="JP14" library="SparkFun-Connectors" deviceset="USB_SOLDER_PADS" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device="">
 <attribute name="DESIGNER" value="Elias Santistevan"/>
@@ -26202,8 +26101,6 @@ to disconnect
 shield from GND</text>
 <wire x1="619.76" y1="99.06" x2="619.76" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="619.76" y1="99.06" x2="779.78" y2="99.06" width="0.1524" layer="97" style="longdash"/>
-<text x="621.538" y="238.506" size="1.27" layer="97" font="vector" align="center">Digital Decoupling
-Pins 3</text>
 <wire x1="619.76" y1="99.06" x2="619.76" y2="162.56" width="0.2032" layer="97" style="longdash"/>
 <text x="414.02" y="45.72" size="2.54" layer="94" font="vector" align="center">JTAG Connection Points</text>
 <wire x1="347.98" y1="53.34" x2="480.06" y2="53.34" width="0.2032" layer="97" style="longdash"/>
@@ -26330,20 +26227,6 @@ Pins 3</text>
 <attribute name="VALUE" x="576.58" y="108.966" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="721.36" y="35.56" smashed="yes"/>
-<instance part="C8" gate="G$1" x="627.38" y="215.9" smashed="yes">
-<attribute name="NAME" x="628.904" y="218.821" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="628.904" y="213.741" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="C9" gate="G$1" x="622.3" y="215.9" smashed="yes">
-<attribute name="NAME" x="618.744" y="218.821" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="616.204" y="213.741" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="GND9" gate="1" x="622.3" y="205.74" smashed="yes">
-<attribute name="VALUE" x="622.3" y="205.486" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="SUPPLY3" gate="G$1" x="622.3" y="226.06" smashed="yes">
-<attribute name="VALUE" x="622.3" y="228.854" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
 <instance part="JP14" gate="JP1" x="398.78" y="243.84" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="386.08" y="251.714" size="1.778" layer="96" font="vector" rot="MR180"/>
 <attribute name="NAME" x="393.7" y="235.712" size="1.778" layer="95" font="vector" rot="MR180"/>
@@ -26515,16 +26398,6 @@ Pins 3</text>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="627.38" y1="220.98" x2="627.38" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="622.3" y1="220.98" x2="622.3" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="627.38" y1="223.52" x2="622.3" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="622.3" y1="226.06" x2="622.3" y2="223.52" width="0.1524" layer="91"/>
-<junction x="622.3" y="223.52"/>
-<pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
 <pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="680.72" y1="248.92" x2="680.72" y2="246.38" width="0.1524" layer="91"/>
@@ -26614,16 +26487,6 @@ Pins 3</text>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="530.86" y1="30.48" x2="530.86" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C9" gate="G$1" pin="2"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="622.3" y1="213.36" x2="622.3" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="622.3" y1="210.82" x2="622.3" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="627.38" y1="213.36" x2="627.38" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="627.38" y1="210.82" x2="622.3" y2="210.82" width="0.1524" layer="91"/>
-<junction x="622.3" y="210.82"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -26954,14 +26817,14 @@ Pins 3</text>
 <pinref part="U1" gate="G$1" pin="IO5"/>
 </segment>
 <segment>
-<wire x1="396.24" y1="132.08" x2="391.16" y2="132.08" width="0.1524" layer="91"/>
-<label x="396.24" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="5"/>
-</segment>
-<segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="685.8" y1="127" x2="683.26" y2="127" width="0.1524" layer="91"/>
 <label x="683.26" y="127" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<wire x1="396.24" y1="129.54" x2="391.16" y2="129.54" width="0.1524" layer="91"/>
+<label x="396.24" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="IO6/SDA/I2S_SDO" class="0">
@@ -26976,14 +26839,14 @@ Pins 3</text>
 <pinref part="U1" gate="G$1" pin="IO6"/>
 </segment>
 <segment>
-<wire x1="396.24" y1="129.54" x2="391.16" y2="129.54" width="0.1524" layer="91"/>
-<label x="396.24" y="129.54" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="4"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="721.36" y1="127" x2="723.9" y2="127" width="0.1524" layer="91"/>
 <label x="723.9" y="127" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="396.24" y1="132.08" x2="391.16" y2="132.08" width="0.1524" layer="91"/>
+<label x="396.24" y="132.08" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="IO7/I2S_SDI" class="0">
