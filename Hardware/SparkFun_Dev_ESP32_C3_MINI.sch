@@ -25884,19 +25884,19 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pin name="EN" x="-15.24" y="15.24" length="short"/>
 <pin name="IOA2" x="15.24" y="12.7" length="short" rot="R180"/>
 <pin name="IOA3" x="15.24" y="10.16" length="short" rot="R180"/>
-<pin name="IOA4" x="15.24" y="7.62" length="short" rot="R180"/>
-<pin name="IO5" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="IO6" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="IO7" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="IOA4/MTMS" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="IO5/MTDI" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="IO6/MTCK" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="IO7/MTDO" x="15.24" y="0" length="short" rot="R180"/>
 <pin name="IO8" x="15.24" y="-2.54" length="short" rot="R180"/>
 <pin name="IO9" x="15.24" y="-5.08" length="short" rot="R180"/>
 <pin name="USB_D-/IO18" x="15.24" y="-10.16" length="short" rot="R180"/>
 <pin name="USB_D+/IO19" x="15.24" y="-12.7" length="short" rot="R180"/>
 <pin name="RXD/IO20" x="15.24" y="-15.24" length="short" rot="R180"/>
 <pin name="TXD/IO21" x="15.24" y="-17.78" length="short" rot="R180"/>
-<text x="-5.08" y="5.08" size="1.27" layer="97" font="vector" align="center">Strapping
+<text x="-6.35" y="-0.508" size="1.27" layer="97" font="vector" align="center">Strapping
 pin defaults</text>
-<text x="-5.08" y="-2.54" size="1.27" layer="97" font="vector" align="center">IO2 - Float
+<text x="-6.35" y="-6.35" size="1.27" layer="97" font="vector" align="center">IO2 - Float
 IO8 - Float
 IO9 - Pull-up
 </text>
@@ -25951,16 +25951,16 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 <connect gate="G$1" pin="EN" pad="8"/>
 <connect gate="G$1" pin="GND" pad="1 2 11 14 36 37 38 39 40 41 42 43 44 45 46 47 48 49.1 49.2 49.3 49.4 49.5 49.6 49.7 49.8 49.9 50 51 52 53"/>
 <connect gate="G$1" pin="IO10" pad="16"/>
-<connect gate="G$1" pin="IO5" pad="19"/>
-<connect gate="G$1" pin="IO6" pad="20"/>
-<connect gate="G$1" pin="IO7" pad="21"/>
+<connect gate="G$1" pin="IO5/MTDI" pad="19"/>
+<connect gate="G$1" pin="IO6/MTCK" pad="20"/>
+<connect gate="G$1" pin="IO7/MTDO" pad="21"/>
 <connect gate="G$1" pin="IO8" pad="22"/>
 <connect gate="G$1" pin="IO9" pad="23"/>
 <connect gate="G$1" pin="IOA0" pad="12"/>
 <connect gate="G$1" pin="IOA1" pad="13"/>
 <connect gate="G$1" pin="IOA2" pad="5"/>
 <connect gate="G$1" pin="IOA3" pad="6"/>
-<connect gate="G$1" pin="IOA4" pad="18"/>
+<connect gate="G$1" pin="IOA4/MTMS" pad="18"/>
 <connect gate="G$1" pin="RXD/IO20" pad="30"/>
 <connect gate="G$1" pin="TXD/IO21" pad="31"/>
 <connect gate="G$1" pin="USB_D+/IO19" pad="27"/>
@@ -26692,7 +26692,7 @@ shield from GND</text>
 <pinref part="U$3" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="IOA3/PICO/MTDO" class="0">
+<net name="IOA3/PICO" class="0">
 <segment>
 <wire x1="685.8" y1="226.06" x2="678.18" y2="226.06" width="0.1524" layer="91"/>
 <label x="685.8" y="226.06" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -26703,13 +26703,8 @@ shield from GND</text>
 <label x="436.88" y="132.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U$3" gate="G$1" pin="5"/>
 </segment>
-<segment>
-<wire x1="406.4" y1="27.94" x2="403.86" y2="27.94" width="0.1524" layer="91" style="longdash"/>
-<label x="403.86" y="27.94" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
-</segment>
 </net>
-<net name="IOA1/POCI/MTDI" class="0">
+<net name="IOA1/POCI" class="0">
 <segment>
 <wire x1="685.8" y1="231.14" x2="678.18" y2="231.14" width="0.1524" layer="91" style="longdash"/>
 <label x="685.8" y="231.14" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -26719,28 +26714,6 @@ shield from GND</text>
 <wire x1="436.88" y1="129.54" x2="444.5" y2="129.54" width="0.1524" layer="91"/>
 <label x="436.88" y="129.54" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U$3" gate="G$1" pin="6"/>
-</segment>
-<segment>
-<wire x1="421.64" y1="27.94" x2="419.1" y2="27.94" width="0.1524" layer="91" style="longdash"/>
-<label x="421.64" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="TP6" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="IOA0/SCLK/MTCK" class="0">
-<segment>
-<wire x1="685.8" y1="233.68" x2="678.18" y2="233.68" width="0.1524" layer="91" style="longdash"/>
-<label x="685.8" y="233.68" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="IOA0"/>
-</segment>
-<segment>
-<wire x1="436.88" y1="127" x2="444.5" y2="127" width="0.1524" layer="91"/>
-<label x="436.88" y="127" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="7"/>
-</segment>
-<segment>
-<pinref part="TP3" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="17.78" x2="401.32" y2="17.78" width="0.1524" layer="91" style="longdash"/>
-<label x="401.32" y="17.78" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -26792,7 +26765,7 @@ shield from GND</text>
 <segment>
 <wire x1="685.8" y1="223.52" x2="678.18" y2="223.52" width="0.1524" layer="91" style="longdash"/>
 <label x="685.8" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="IOA4"/>
+<pinref part="U1" gate="G$1" pin="IOA4/MTMS"/>
 </segment>
 <segment>
 <wire x1="436.88" y1="124.46" x2="444.5" y2="124.46" width="0.1524" layer="91"/>
@@ -26805,16 +26778,11 @@ shield from GND</text>
 <label x="421.64" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="IO5/SCL/I2S_SCK" class="0">
-<segment>
-<wire x1="426.72" y1="76.2" x2="421.64" y2="76.2" width="0.1524" layer="91"/>
-<label x="426.72" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J5" gate="J1" pin="4"/>
-</segment>
+<net name="IO5/SDA/I2S_SDI/MTDI" class="0">
 <segment>
 <wire x1="685.8" y1="220.98" x2="678.18" y2="220.98" width="0.1524" layer="91"/>
 <label x="685.8" y="220.98" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="IO5"/>
+<pinref part="U1" gate="G$1" pin="IO5/MTDI"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -26822,21 +26790,26 @@ shield from GND</text>
 <label x="683.26" y="127" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<wire x1="396.24" y1="129.54" x2="391.16" y2="129.54" width="0.1524" layer="91"/>
-<label x="396.24" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="4"/>
+<wire x1="396.24" y1="132.08" x2="391.16" y2="132.08" width="0.1524" layer="91"/>
+<label x="396.24" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="5"/>
 </segment>
-</net>
-<net name="IO6/SDA/I2S_SDO" class="0">
 <segment>
-<wire x1="421.64" y1="73.66" x2="426.72" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="73.66" x2="421.64" y2="73.66" width="0.1524" layer="91"/>
 <label x="426.72" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J5" gate="J1" pin="3"/>
 </segment>
 <segment>
+<wire x1="421.64" y1="27.94" x2="419.1" y2="27.94" width="0.1524" layer="91" style="longdash"/>
+<label x="421.64" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="TP6" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="IO6/SCL/I2S_SCK/MTCK" class="0">
+<segment>
 <wire x1="685.8" y1="218.44" x2="678.18" y2="218.44" width="0.1524" layer="91"/>
 <label x="685.8" y="218.44" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="IO6"/>
+<pinref part="U1" gate="G$1" pin="IO6/MTCK"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -26844,12 +26817,22 @@ shield from GND</text>
 <label x="723.9" y="127" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="396.24" y1="132.08" x2="391.16" y2="132.08" width="0.1524" layer="91"/>
-<label x="396.24" y="132.08" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="5"/>
+<wire x1="396.24" y1="129.54" x2="391.16" y2="129.54" width="0.1524" layer="91"/>
+<label x="396.24" y="129.54" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="4"/>
+</segment>
+<segment>
+<pinref part="TP3" gate="G$1" pin="1"/>
+<wire x1="406.4" y1="17.78" x2="401.32" y2="17.78" width="0.1524" layer="91" style="longdash"/>
+<label x="401.32" y="17.78" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<wire x1="421.64" y1="76.2" x2="426.72" y2="76.2" width="0.1524" layer="91"/>
+<label x="426.72" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J5" gate="J1" pin="4"/>
 </segment>
 </net>
-<net name="IO7/I2S_SDI" class="0">
+<net name="IO7/I2S_SDO/MTDO" class="0">
 <segment>
 <wire x1="396.24" y1="127" x2="391.16" y2="127" width="0.1524" layer="91"/>
 <label x="396.24" y="127" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
@@ -26858,7 +26841,24 @@ shield from GND</text>
 <segment>
 <wire x1="685.8" y1="215.9" x2="678.18" y2="215.9" width="0.1524" layer="91"/>
 <label x="685.8" y="215.9" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="IO7"/>
+<pinref part="U1" gate="G$1" pin="IO7/MTDO"/>
+</segment>
+<segment>
+<wire x1="406.4" y1="27.94" x2="403.86" y2="27.94" width="0.1524" layer="91" style="longdash"/>
+<label x="403.86" y="27.94" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="IOA0/SCLK" class="0">
+<segment>
+<wire x1="436.88" y1="127" x2="444.5" y2="127" width="0.1524" layer="91"/>
+<label x="436.88" y="127" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="7"/>
+</segment>
+<segment>
+<wire x1="685.8" y1="233.68" x2="678.18" y2="233.68" width="0.1524" layer="91" style="longdash"/>
+<label x="685.8" y="233.68" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="IOA0"/>
 </segment>
 </net>
 </nets>
