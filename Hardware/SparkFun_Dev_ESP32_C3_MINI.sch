@@ -25815,7 +25815,9 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 <connect gate="G$1" pin="USB_D-/IO18" pad="26"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-20056" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
