@@ -9,8 +9,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="23" fill="1" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="10" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -8445,9 +8445,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="10.029171875" y1="28.553428125" x2="9.91" y2="28.43425625" width="0.1778" layer="1"/>
 <wire x1="10.029171875" y1="28.934428125" x2="10.029171875" y2="28.543534375" width="0.1778" layer="16"/>
 <wire x1="10.029171875" y1="28.543534375" x2="9.906" y2="28.4203625" width="0.1778" layer="16"/>
-<wire x1="9.906" y1="28.4203625" x2="9.906" y2="17.0482" width="0.1778" layer="16"/>
-<wire x1="9.906" y1="17.0482" x2="7.2088" y2="14.351" width="0.1778" layer="16"/>
-<wire x1="7.2088" y1="14.351" x2="5.0862" y2="14.351" width="0.1778" layer="16"/>
+<wire x1="9.906" y1="28.4203625" x2="9.906" y2="17.3022" width="0.1778" layer="16"/>
+<wire x1="9.906" y1="17.3022" x2="6.9548" y2="14.351" width="0.1778" layer="16"/>
+<wire x1="6.9548" y1="14.351" x2="5.0862" y2="14.351" width="0.1778" layer="16"/>
 <via x="5.0862" y="14.351" extent="1-16" drill="0.3048"/>
 <wire x1="5.0862" y1="14.351" x2="5.0604" y2="14.3252" width="0.1778" layer="1"/>
 <wire x1="5.0604" y1="14.3252" x2="4.26" y2="14.3252" width="0.1778" layer="1"/>
@@ -8470,12 +8470,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="9.41" y1="27.01" x2="9.41" y2="29.0442" width="0.1778" layer="1"/>
 <wire x1="10.16" y1="29.7942" x2="10.16" y2="30.353" width="0.1778" layer="1"/>
 <wire x1="9.41" y1="29.0442" x2="10.16" y2="29.7942" width="0.1778" layer="1"/>
-<wire x1="10.2108" y1="16.9034" x2="7.3426" y2="14.0352" width="0.1778" layer="16"/>
+<wire x1="10.2108" y1="17.1574" x2="7.0886" y2="14.0352" width="0.1778" layer="16"/>
 <wire x1="11.049" y1="31.115" x2="10.7188" y2="30.7848" width="0.1778" layer="16"/>
 <wire x1="10.7188" y1="30.7848" x2="10.7188" y2="28.79594375" width="0.1778" layer="16"/>
 <wire x1="10.7188" y1="28.79594375" x2="10.2108" y2="28.28794375" width="0.1778" layer="16"/>
-<wire x1="10.2108" y1="28.28794375" x2="10.2108" y2="16.9034" width="0.1778" layer="16"/>
-<wire x1="7.3426" y1="14.0352" x2="5.5262" y2="14.0352" width="0.1778" layer="16"/>
+<wire x1="10.2108" y1="28.28794375" x2="10.2108" y2="17.1574" width="0.1778" layer="16"/>
+<wire x1="7.0886" y1="14.0352" x2="5.5262" y2="14.0352" width="0.1778" layer="16"/>
 <wire x1="5.08" y1="13.589" x2="5.5262" y2="14.0352" width="0.1778" layer="16"/>
 <wire x1="4.26" y1="13.5252" x2="5.0162" y2="13.5252" width="0.1778" layer="1"/>
 <wire x1="5.0162" y1="13.5252" x2="5.08" y2="13.589" width="0.1778" layer="1"/>
@@ -8635,6 +8635,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="4.2164" y="27.4574" extent="1-16" drill="0.3048"/>
 <via x="18.034" y="7.62" extent="1-16" drill="0.3048"/>
 <via x="13.1826" y="15.0622" extent="1-16" drill="0.3048"/>
+<via x="5.08" y="9.779" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="8.89" extent="1-16" drill="0.3048"/>
+<via x="9.017" y="15.113" extent="1-16" drill="0.3048"/>
+<via x="14.859" y="9.525" extent="1-16" drill="0.3048"/>
+<via x="17.5768" y="17.78" extent="1-16" drill="0.3048"/>
+<via x="5.461" y="15.113" extent="1-16" drill="0.3048"/>
+<via x="17.018" y="20.32" extent="1-16" drill="0.3048"/>
+<wire x1="16.04" y1="20.81" x2="16.53" y2="20.32" width="0.2032" layer="1"/>
+<wire x1="16.53" y1="20.32" x2="17.018" y2="20.32" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R3" pad="2"/>
@@ -8918,8 +8927,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="14.4907" y1="19.9009" x2="11.7602" y2="17.1704" width="0.2032" layer="16"/>
 <wire x1="2.54" y1="11.43" x2="8.001" y2="11.43" width="0.2032" layer="16"/>
 <wire x1="11.76" y1="16.0252" x2="11.76" y2="15.3042" width="0.2032" layer="1"/>
-<wire x1="11.1878" y1="14.732" x2="9.3218" y2="14.732" width="0.2032" layer="1"/>
-<wire x1="9.3218" y1="14.732" x2="8.9916" y2="14.4018" width="0.2032" layer="1"/>
+<wire x1="11.1878" y1="14.732" x2="9.4488" y2="14.732" width="0.2032" layer="1"/>
+<wire x1="9.4488" y1="14.732" x2="9.1186" y2="14.4018" width="0.2032" layer="1"/>
+<wire x1="9.1186" y1="14.4018" x2="8.9916" y2="14.4018" width="0.2032" layer="1"/>
 <via x="8.9916" y="14.4018" extent="1-16" drill="0.3048"/>
 <wire x1="11.76" y1="15.3042" x2="11.1878" y2="14.732" width="0.2032" layer="1"/>
 <wire x1="8.9916" y1="14.4018" x2="8.9916" y2="12.4206" width="0.2032" layer="16"/>
@@ -9043,20 +9053,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="11.7762" y1="13.0302" x2="6.6802" y2="13.0302" width="0.2032" layer="2"/>
 <wire x1="0.97" y1="13.97" x2="2.54" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$6">
-<via x="6.35" y="8.89" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="N$9">
-<via x="5.461" y="15.113" extent="1-16" drill="0.3048"/>
-</signal>
 <signal name="N$13">
 <via x="15.113" y="19.7866" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="N$14">
-<via x="17.5768" y="17.78" extent="1-16" drill="0.3048"/>
-</signal>
-<signal name="N$15">
-<via x="5.08" y="9.779" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$16">
 <via x="12.7" y="20.32" extent="1-16" drill="0.3048"/>
@@ -9134,10 +9132,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="4,16,3071580a9f53f3aa"/>
 <approved hash="4,16,d37baeb36a0ef178"/>
 <approved hash="19,16,b4d4b0f4e4cad8d4"/>
-<approved hash="23,1,c91c95e092a6ce5a"/>
 <approved hash="19,16,038302641de52383"/>
 <approved hash="19,16,ae51bc54ecf89ebd"/>
-<approved hash="23,1,18f899f45ebf98f9"/>
 <approved hash="19,16,281936bdf67c4252"/>
 <approved hash="19,16,075b0cbbd2a5d65b"/>
 <approved hash="19,16,89e48d3bb925a5db"/>
