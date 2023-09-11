@@ -23628,158 +23628,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1KOHM" prefix="R">
-<description>&lt;h3&gt;1kΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12182"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12182"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12182"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12182"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/4W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08380"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08380"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08380"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08380"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/6W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09769"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-07856"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-1/16W-1%" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-14342" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402T-1/16W-1%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-14342" constant="no"/>
-<attribute name="VALUE" value="1k" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="4.7KOHM" prefix="R">
 <description>&lt;h3&gt;4.7kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -25985,8 +25833,8 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 <class number="1" name="Power" width="0.127" drill="0">
 <clearance class="1" value="0.1778"/>
 </class>
-<class number="2" name="USB" width="0.254" drill="0">
-<clearance class="2" value="0.1016"/>
+<class number="2" name="USB" width="0.1778" drill="0">
+<clearance class="2" value="0.127"/>
 </class>
 </classes>
 <parts>
@@ -26033,7 +25881,7 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 <attribute name="REV" value="v01"/>
 </part>
 <part name="D2" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="STAT" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5"/>
@@ -26105,6 +25953,11 @@ shield from GND</text>
 <text x="414.02" y="45.72" size="2.54" layer="94" font="vector" align="center">JTAG Connection Points</text>
 <wire x1="347.98" y1="53.34" x2="480.06" y2="53.34" width="0.2032" layer="97" style="longdash"/>
 <wire x1="480.06" y1="99.06" x2="347.98" y2="99.06" width="0.2032" layer="97" style="longdash"/>
+<text x="393.7" y="175.26" size="1.778" layer="97" font="vector">USB Differential Lines:  
+Width: 7mils
+Spacing: 5mils
+Conductor Height: 7.1mils
+ZDifferential: 91 Ohms </text>
 </plain>
 <instances>
 <instance part="J1" gate="J1" x="391.16" y="218.44" smashed="yes">
@@ -26308,11 +26161,11 @@ shield from GND</text>
 <attribute name="NAME" x="408.94" y="78.994" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="U$2" gate="G$1" x="381" y="132.08" smashed="yes">
-<attribute name="VALUE" x="381" y="117.094" size="1.778" layer="96" font="vector"/>
+<attribute name="VALUE" x="365.76" y="117.094" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="381" y="145.288" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="U$3" gate="G$1" x="454.66" y="132.08" smashed="yes" rot="R180">
-<attribute name="VALUE" x="454.66" y="119.126" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="VALUE" x="469.9" y="119.126" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="454.66" y="146.812" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="439.42" y="147.32" smashed="yes">
@@ -26652,7 +26505,7 @@ shield from GND</text>
 <wire x1="530.86" y1="53.34" x2="530.86" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IO21/RXI" class="0">
+<net name="IO2O/RXI" class="0">
 <segment>
 <wire x1="391.16" y1="139.7" x2="396.24" y2="139.7" width="0.1524" layer="91"/>
 <label x="396.24" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -26664,7 +26517,7 @@ shield from GND</text>
 <pinref part="U1" gate="G$1" pin="RXD/IO20"/>
 </segment>
 </net>
-<net name="IO20/TXO" class="0">
+<net name="IO21/TXO" class="0">
 <segment>
 <wire x1="391.16" y1="142.24" x2="396.24" y2="142.24" width="0.1524" layer="91"/>
 <label x="396.24" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
