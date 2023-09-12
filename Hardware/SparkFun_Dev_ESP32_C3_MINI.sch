@@ -25970,13 +25970,13 @@ ZDifferential: 91 Ohms </text>
 </instance>
 <instance part="U2" gate="G$1" x="508" y="218.44" smashed="yes">
 <attribute name="NAME" x="500.38" y="226.314" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="500.38" y="210.566" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="VALUE" x="497.84" y="210.566" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="GND3" gate="1" x="495.3" y="205.74" smashed="yes">
 <attribute name="VALUE" x="495.3" y="205.486" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="523.24" y="226.06" smashed="yes">
-<attribute name="VALUE" x="523.24" y="228.854" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY2" gate="G$1" x="518.16" y="226.06" smashed="yes">
+<attribute name="VALUE" x="518.16" y="228.854" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND4" gate="1" x="424.18" y="63.5" smashed="yes">
 <attribute name="VALUE" x="424.18" y="63.246" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -26035,22 +26035,22 @@ ZDifferential: 91 Ohms </text>
 <instance part="GND12" gate="1" x="429.26" y="195.58" smashed="yes">
 <attribute name="VALUE" x="429.26" y="195.326" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="414.02" y="251.46" smashed="yes">
-<attribute name="VALUE" x="414.02" y="254.254" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="414.02" y="243.84" smashed="yes">
+<attribute name="VALUE" x="414.02" y="246.634" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="C1" gate="G$1" x="490.22" y="213.36" smashed="yes">
 <attribute name="NAME" x="484.124" y="216.281" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="484.124" y="211.201" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C2" gate="G$1" x="523.24" y="213.36" smashed="yes">
-<attribute name="NAME" x="524.764" y="216.281" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="524.764" y="211.201" size="1.778" layer="96" font="vector"/>
+<instance part="C2" gate="G$1" x="518.16" y="213.36" smashed="yes">
+<attribute name="NAME" x="519.684" y="216.281" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="519.684" y="211.201" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND13" gate="1" x="490.22" y="205.74" smashed="yes">
 <attribute name="VALUE" x="490.22" y="205.486" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND14" gate="1" x="523.24" y="205.74" smashed="yes">
-<attribute name="VALUE" x="523.24" y="205.486" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND14" gate="1" x="518.16" y="205.74" smashed="yes">
+<attribute name="VALUE" x="518.16" y="205.486" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="490.22" y="231.14" smashed="yes">
 <attribute name="VALUE" x="490.22" y="233.934" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -26065,15 +26065,15 @@ ZDifferential: 91 Ohms </text>
 <attribute name="NAME" x="514.096" y="134.62" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="517.144" y="134.62" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="C5" gate="G$1" x="523.24" y="116.84" smashed="yes">
-<attribute name="NAME" x="524.764" y="119.761" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="524.764" y="114.681" size="1.778" layer="96" font="vector"/>
+<instance part="C5" gate="G$1" x="520.7" y="116.84" smashed="yes">
+<attribute name="NAME" x="522.224" y="119.761" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="522.224" y="114.681" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND19" gate="1" x="515.62" y="109.22" smashed="yes">
 <attribute name="VALUE" x="515.62" y="108.966" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND20" gate="1" x="523.24" y="109.22" smashed="yes">
-<attribute name="VALUE" x="523.24" y="108.966" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND20" gate="1" x="520.7" y="109.22" smashed="yes">
+<attribute name="VALUE" x="520.7" y="108.966" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="515.62" y="142.24" smashed="yes">
 <attribute name="VALUE" x="515.62" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -26082,9 +26082,9 @@ ZDifferential: 91 Ohms </text>
 <attribute name="VALUE" x="576.58" y="108.966" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="721.36" y="35.56" smashed="yes"/>
-<instance part="JP14" gate="JP1" x="398.78" y="243.84" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="386.08" y="251.714" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="393.7" y="235.712" size="1.778" layer="95" font="vector" rot="MR180"/>
+<instance part="JP14" gate="JP1" x="398.78" y="238.76" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="378.46" y="246.634" size="1.778" layer="96" font="vector" rot="MR180"/>
+<attribute name="NAME" x="393.7" y="230.632" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="347.98" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="678.18" y="0" smashed="yes">
@@ -26149,11 +26149,11 @@ ZDifferential: 91 Ohms </text>
 <instance part="SUPPLY15" gate="G$1" x="683.26" y="248.92" smashed="yes">
 <attribute name="VALUE" x="685.8" y="251.714" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND16" gate="1" x="393.7" y="109.22" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="393.7" y="108.966" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND16" gate="1" x="393.7" y="116.84" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="393.7" y="116.586" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="645.16" y="238.76" smashed="yes">
-<attribute name="VALUE" x="645.16" y="241.554" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="645.16" y="236.22" smashed="yes">
+<attribute name="VALUE" x="645.16" y="239.014" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND1" gate="1" x="645.16" y="193.04" smashed="yes">
 <attribute name="VALUE" x="645.16" y="192.786" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -26176,8 +26176,8 @@ ZDifferential: 91 Ohms </text>
 <instance part="SUPPLY10" gate="G$1" x="431.8" y="147.32" smashed="yes">
 <attribute name="VALUE" x="431.8" y="150.114" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND5" gate="1" x="441.96" y="109.22" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="441.96" y="108.966" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="GND5" gate="1" x="441.96" y="116.84" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="441.96" y="116.586" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
 <instance part="U1" gate="G$1" x="662.94" y="215.9" smashed="yes">
 <attribute name="NAME" x="650.24" y="238.76" size="1.778" layer="95" font="vector" align="top-left"/>
@@ -26195,12 +26195,12 @@ ZDifferential: 91 Ohms </text>
 </segment>
 <segment>
 <pinref part="JP14" gate="JP1" pin="2"/>
-<wire x1="403.86" y1="243.84" x2="411.48" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="238.76" x2="411.48" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="220.98" x2="411.48" y2="220.98" width="0.1524" layer="91"/>
 <label x="414.02" y="220.98" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J1" gate="J1" pin="D-"/>
 <wire x1="411.48" y1="220.98" x2="414.02" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="243.84" x2="411.48" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="238.76" x2="411.48" y2="220.98" width="0.1524" layer="91"/>
 <junction x="411.48" y="220.98"/>
 </segment>
 </net>
@@ -26216,8 +26216,8 @@ ZDifferential: 91 Ohms </text>
 <wire x1="403.86" y1="223.52" x2="408.94" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="JP14" gate="JP1" pin="3"/>
 <wire x1="408.94" y1="223.52" x2="414.02" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="241.3" x2="408.94" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="408.94" y1="241.3" x2="408.94" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="236.22" x2="408.94" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="236.22" x2="408.94" y2="223.52" width="0.1524" layer="91"/>
 <junction x="408.94" y="223.52"/>
 </segment>
 </net>
@@ -26225,11 +26225,11 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <pinref part="U2" gate="G$1" pin="OUT"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-<wire x1="515.62" y1="223.52" x2="523.24" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="523.24" y1="223.52" x2="523.24" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="223.52" x2="518.16" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="223.52" x2="518.16" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="523.24" y1="218.44" x2="523.24" y2="223.52" width="0.1524" layer="91"/>
-<junction x="523.24" y="223.52"/>
+<wire x1="518.16" y1="218.44" x2="518.16" y2="223.52" width="0.1524" layer="91"/>
+<junction x="518.16" y="223.52"/>
 </segment>
 <segment>
 <pinref part="PWR" gate="G$1" pin="2"/>
@@ -26263,7 +26263,7 @@ ZDifferential: 91 Ohms </text>
 <wire x1="683.26" y1="248.92" x2="683.26" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="645.16" y1="238.76" x2="645.16" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="645.16" y1="236.22" x2="645.16" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="645.16" y1="233.68" x2="647.7" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 <pinref part="U1" gate="G$1" pin="3V3"/>
@@ -26282,8 +26282,8 @@ ZDifferential: 91 Ohms </text>
 <wire x1="406.4" y1="198.12" x2="406.4" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="210.82" x2="403.86" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="JP14" gate="JP1" pin="4"/>
-<wire x1="403.86" y1="238.76" x2="406.4" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="238.76" x2="406.4" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="233.68" x2="406.4" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="233.68" x2="406.4" y2="210.82" width="0.1524" layer="91"/>
 <junction x="406.4" y="210.82"/>
 </segment>
 <segment>
@@ -26321,7 +26321,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="523.24" y1="208.28" x2="523.24" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="208.28" x2="518.16" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
@@ -26331,7 +26331,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="523.24" y1="111.76" x2="523.24" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="520.7" y1="111.76" x2="520.7" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
@@ -26357,7 +26357,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="391.16" y1="137.16" x2="393.7" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="137.16" x2="393.7" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="134.62" x2="393.7" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="134.62" x2="393.7" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="134.62" x2="393.7" y2="134.62" width="0.1524" layer="91"/>
 <junction x="393.7" y="134.62"/>
 <pinref part="GND16" gate="1" pin="GND"/>
@@ -26372,7 +26372,7 @@ ZDifferential: 91 Ohms </text>
 </segment>
 <segment>
 <wire x1="444.5" y1="139.7" x2="441.96" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="441.96" y1="139.7" x2="441.96" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="441.96" y1="139.7" x2="441.96" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="U$3" gate="G$1" pin="2"/>
 </segment>
@@ -26420,11 +26420,11 @@ ZDifferential: 91 Ohms </text>
 <pinref part="J1" gate="J1" pin="VBUS"/>
 <pinref part="SUPPLY8" gate="G$1" pin="V_USB"/>
 <wire x1="403.86" y1="226.06" x2="414.02" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="414.02" y1="226.06" x2="414.02" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="226.06" x2="414.02" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="JP14" gate="JP1" pin="1"/>
-<wire x1="414.02" y1="246.38" x2="414.02" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="246.38" x2="414.02" y2="246.38" width="0.1524" layer="91"/>
-<junction x="414.02" y="246.38"/>
+<wire x1="414.02" y1="241.3" x2="414.02" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="241.3" x2="414.02" y2="241.3" width="0.1524" layer="91"/>
+<junction x="414.02" y="241.3"/>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="V_USB"/>
@@ -26447,19 +26447,19 @@ ZDifferential: 91 Ohms </text>
 <pinref part="U$3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="EN" class="0">
+<net name="!RESET!" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="RESET" gate="G$1" pin="2"/>
 <wire x1="515.62" y1="124.46" x2="515.62" y2="127" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="515.62" y1="127" x2="515.62" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="523.24" y1="121.92" x2="523.24" y2="127" width="0.1524" layer="91"/>
-<wire x1="523.24" y1="127" x2="515.62" y2="127" width="0.1524" layer="91"/>
+<wire x1="520.7" y1="121.92" x2="520.7" y2="127" width="0.1524" layer="91"/>
+<wire x1="520.7" y1="127" x2="515.62" y2="127" width="0.1524" layer="91"/>
 <junction x="515.62" y="127"/>
-<wire x1="523.24" y1="127" x2="525.78" y2="127" width="0.1524" layer="91"/>
-<junction x="523.24" y="127"/>
-<label x="525.78" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="520.7" y1="127" x2="523.24" y2="127" width="0.1524" layer="91"/>
+<junction x="520.7" y="127"/>
+<label x="523.24" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="TP5" gate="G$1" pin="1"/>
