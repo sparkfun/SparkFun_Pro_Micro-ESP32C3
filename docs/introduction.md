@@ -4,12 +4,10 @@ icon: material/book-open-page-variant
 
 ## Introduction
 
-<!-- Single Product Card -->
-
 <div class="grid cards desc" markdown>
 
 -    <a href="https://www.sparkfun.com/products/23484">
-    **<Official Product Name>**<br>
+    **SparkFun Pro Micro - ESP32-C3**<br>
     **SKU:** DEV-23484
 
     ---
@@ -18,14 +16,7 @@ icon: material/book-open-page-variant
     ![Product Thumbnail](<Product Image Link>)
     </figure></a>
 
- <!-->   <center>
-    <article class="video_desc">
-    <iframe src="<Embedded Video>" title="Product Showcase: <Official Product Name>" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </article>
-    </center>
--->
 -    The SparkFun Pro Micro - ESP32-C3 product description. 
-
 
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/23484){ .md-button .md-button--primary }
@@ -37,7 +28,7 @@ icon: material/book-open-page-variant
 
 
 ## Required Materials
-To get started, users will need a few items. Now some users may already have a few of these items, feel free to modify your cart accordingly.
+To get started, users will need a few items. You may already have a few of these items, feel free to modify your cart accordingly.
 
 <div class="grid cards hide col-4" markdown>
 

@@ -1,11 +1,11 @@
 # Documentation page information
 site_name: SparkFun ESP32-C3 Pro Micro Hookup Guide
 site_description: A guide for getting started with the SparkFun ESP32-C3 Pro Micro
-site_url: https://sparkfun.github.io/SparkFun_Pro_Micro-ESP32C3_MINI
+site_url: https://sparkfun.github.io/SparkFun_Pro_Micro-ESP32C3
 site_author: SparkFun Electronics
 
-repo_url: https://github.com/sparkfun/SparkFun_Pro_Micro-ESP32C3_MINI
-repo_name: sparkfun/SparkFun_Pro_Micro-ESP32C3_MINI
+repo_url: https://github.com/sparkfun/SparkFun_Pro_Micro-ESP32C3
+repo_name: sparkfun/SparkFun_Pro_Micro-ESP32C3
 
 copyright:
   Copyright 2023 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;</a><br>
@@ -154,7 +154,7 @@ plugins:
       type: timeago
   # Add git committers at the bottom of the page
   - git-committers:
-      repository: sparkfun/SparkFun_Pro_Micro-ESP32C3_MINI
+      repository: sparkfun/SparkFun_Pro_Micro-ESP32C3
       branch: main
   # Add git authors at the bottom of the page
   - git-authors
