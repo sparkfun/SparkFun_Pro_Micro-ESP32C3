@@ -1,9 +1,9 @@
-SparkFun Pro Micro ESP32-C3 Mini
+SparkFun Pro Micro ESP32-C3
 ========================================
 
-[![SparkFun Pro Micro ESP32-C3 Mini](URL for picture of part)](https://www.sparkfun.com/products/23484)
+[![SparkFun Pro Micro ESP32-C3](URL for picture of part)](https://www.sparkfun.com/products/23484)
 
-[*SparkFun Pro Micro ESP32-C3 Mini (DEV-23484)*](https://www.sparkfun.com/products/23484)
+[*SparkFun Pro Micro ESP32-C3 (DEV-23484)*](https://www.sparkfun.com/products/23484)
 
 <Basic description of the part.>
 
@@ -16,9 +16,8 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-
+* **[Library](GitHub library URL)** - Arduino library for the SparkFun Pro Micro ESP32-C3
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Pro_Micro-ESP32C3)** - Basic hookup guide for the SparkFun Pro Micro ESP32-C3
 
 License Information
 -------------------
