@@ -45,14 +45,14 @@ static const uint8_t SDA = 5;
 static const uint8_t SCL = 6;
 
 static const uint8_t SS    = 10;
-static const uint8_t MOSI  = 1;
-static const uint8_t MISO  = 3;
+static const uint8_t MOSI  = 3;
+static const uint8_t MISO  = 1;
 static const uint8_t SCK   = 0;
 
-static const uint8_t I2S_MCLK = 6;    
-static const uint8_t I2S_LRCLK = 1;  
-static const uint8_t I2S_SCLK = 1;   
-static const uint8_t I2S_DOUT = 1;   
+static const uint8_t PIN_I2S_SCK = 6;  // Frame clock, no bit clock
+static const uint8_t PIN_I2S_SD_DOUT = 7;  // data out 
+static const uint8_t PIN_I2S_SD_IN = 5;   // data in
+static const uint8_t PIN_I2S_FS = 10;  // frame select 
 
 
 #endif /* Pins_Arduino_h */

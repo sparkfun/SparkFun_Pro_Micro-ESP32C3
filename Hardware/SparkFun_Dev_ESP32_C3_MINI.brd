@@ -8633,7 +8633,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="6.16" y1="16.0252" x2="6.16" y2="16.2936" width="0.2032" layer="1"/>
 <wire x1="6.16" y1="16.2936" x2="5.5626" y2="16.891" width="0.2032" layer="1"/>
 </signal>
-<signal name="IOA4/MTMS">
+<signal name="IOA4/MTMS/I2S_BCK">
 <contactref element="U$3" pad="8B"/>
 <contactref element="U$3" pad="8"/>
 <contactref element="TP4" pad="1"/>

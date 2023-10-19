@@ -26616,7 +26616,7 @@ ZDifferential: 91 Ohms </text>
 <pinref part="U1" gate="G$1" pin="IO9"/>
 </segment>
 </net>
-<net name="IOA4/MTMS" class="0">
+<net name="IOA4/MTMS/I2S_BCK" class="0">
 <segment>
 <wire x1="685.8" y1="223.52" x2="678.18" y2="223.52" width="0.1524" layer="91" style="longdash"/>
 <label x="685.8" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
