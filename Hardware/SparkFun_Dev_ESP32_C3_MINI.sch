@@ -17935,6 +17935,298 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.8866" y="-0.23263125"/>
 </polygon>
 </package>
+<package name="QWIIC_5MM_INVERTED">
+<polygon width="0.001" layer="21">
+<vertex x="-1.417165625" y="-0.80280625"/>
+<vertex x="-1.1273125" y="-0.802753125"/>
+<vertex x="-1.12125625" y="-0.7988125"/>
+<vertex x="-1.12125625" y="0.450553125"/>
+<vertex x="-1.126428125" y="0.455375"/>
+<vertex x="-1.425940625" y="0.455040625"/>
+<vertex x="-1.425940625" y="0.3351"/>
+<vertex x="-1.46560625" y="0.3770125"/>
+<vertex x="-1.50485" y="0.407878125"/>
+<vertex x="-1.548346875" y="0.432384375"/>
+<vertex x="-1.57605625" y="0.44381875"/>
+<vertex x="-1.6046625" y="0.452775"/>
+<vertex x="-1.63391875" y="0.45929375"/>
+<vertex x="-1.66360625" y="0.463465625"/>
+<vertex x="-1.7235" y="0.46534375"/>
+<vertex x="-1.7633625" y="0.462421875"/>
+<vertex x="-1.793015625" y="0.45801875"/>
+<vertex x="-1.851075" y="0.443196875"/>
+<vertex x="-1.897378125" y="0.424490625"/>
+<vertex x="-1.932459375" y="0.40535"/>
+<vertex x="-1.965328125" y="0.382621875"/>
+<vertex x="-1.995609375" y="0.356546875"/>
+<vertex x="-2.02299375" y="0.32744375"/>
+<vertex x="-2.052846875" y="0.28740625"/>
+<vertex x="-2.073103125" y="0.252953125"/>
+<vertex x="-2.093896875" y="0.2075375"/>
+<vertex x="-2.109803125" y="0.160184375"/>
+<vertex x="-2.12108125" y="0.11151875"/>
+<vertex x="-2.12805" y="0.062046875"/>
+<vertex x="-2.131040625" y="0.012171875"/>
+<vertex x="-2.12981875" y="-0.047765625"/>
+<vertex x="-2.124721875" y="-0.097465625"/>
+<vertex x="-2.115578125" y="-0.14658125"/>
+<vertex x="-2.102071875" y="-0.194678125"/>
+<vertex x="-2.079715625" y="-0.250284375"/>
+<vertex x="-2.055725" y="-0.294090625"/>
+<vertex x="-2.026790625" y="-0.334803125"/>
+<vertex x="-1.993053125" y="-0.371625"/>
+<vertex x="-1.954871875" y="-0.403815625"/>
+<vertex x="-1.91283125" y="-0.430765625"/>
+<vertex x="-1.867671875" y="-0.452090625"/>
+<vertex x="-1.810525" y="-0.470103125"/>
+<vertex x="-1.7514375" y="-0.4800875"/>
+<vertex x="-1.69155625" y="-0.482615625"/>
+<vertex x="-1.641771875" y="-0.478628125"/>
+<vertex x="-1.592965625" y="-0.46808125"/>
+<vertex x="-1.54625625" y="-0.450459375"/>
+<vertex x="-1.502915625" y="-0.425684375"/>
+<vertex x="-1.464128125" y="-0.394259375"/>
+<vertex x="-1.426028125" y="-0.353128125"/>
+<vertex x="-1.525271875" y="-0.21656875"/>
+<vertex x="-1.54281875" y="-0.2258625"/>
+<vertex x="-1.580675" y="-0.238475"/>
+<vertex x="-1.620328125" y="-0.2430375"/>
+<vertex x="-1.66014375" y="-0.240146875"/>
+<vertex x="-1.698603125" y="-0.2294875"/>
+<vertex x="-1.7338625" y="-0.21081875"/>
+<vertex x="-1.764165625" y="-0.184865625"/>
+<vertex x="-1.788371875" y="-0.15313125"/>
+<vertex x="-1.79805" y="-0.13565"/>
+<vertex x="-1.80958125" y="-0.107990625"/>
+<vertex x="-1.819675" y="-0.069346875"/>
+<vertex x="-1.824653125" y="-0.019675"/>
+<vertex x="-1.82205625" y="0.0301875"/>
+<vertex x="-1.814140625" y="0.069340625"/>
+<vertex x="-1.8043875" y="0.097675"/>
+<vertex x="-1.795940625" y="0.115784375"/>
+<vertex x="-1.774209375" y="0.14926875"/>
+<vertex x="-1.746159375" y="0.177646875"/>
+<vertex x="-1.71261875" y="0.19925625"/>
+<vertex x="-1.675165625" y="0.21301875"/>
+<vertex x="-1.6555625" y="0.216884375"/>
+<vertex x="-1.625684375" y="0.219090625"/>
+<vertex x="-1.624465625" y="0.21909375"/>
+<vertex x="-1.584725" y="0.21533125"/>
+<vertex x="-1.54659375" y="0.203575"/>
+<vertex x="-1.528725" y="0.1946375"/>
+<vertex x="-1.511965625" y="0.1837625"/>
+<vertex x="-1.48253125" y="0.156821875"/>
+<vertex x="-1.459296875" y="0.12436875"/>
+<vertex x="-1.450096875" y="0.106628125"/>
+<vertex x="-1.439253125" y="0.07869375"/>
+<vertex x="-1.42998125" y="0.039840625"/>
+<vertex x="-1.425890625" y="-0.0099125"/>
+<vertex x="-1.429340625" y="-0.05971875"/>
+<vertex x="-1.438028125" y="-0.098709375"/>
+<vertex x="-1.4484" y="-0.126821875"/>
+<vertex x="-1.45726875" y="-0.144728125"/>
+<vertex x="-1.479840625" y="-0.17765"/>
+<vertex x="-1.5086625" y="-0.205246875"/>
+<vertex x="-1.525059375" y="-0.216440625"/>
+<vertex x="-1.42594375" y="-0.3531625"/>
+<vertex x="-1.42594375" y="-0.802809375"/>
+</polygon>
+<polygon width="0.001" layer="21">
+<vertex x="0.559646875" y="0.45531875"/>
+<vertex x="0.269871875" y="0.45531875"/>
+<vertex x="0.26125625" y="0.453478125"/>
+<vertex x="0.077453125" y="-0.169475"/>
+<vertex x="-0.104821875" y="0.450521875"/>
+<vertex x="-0.11121875" y="0.45531875"/>
+<vertex x="-0.39100625" y="0.45531875"/>
+<vertex x="-0.39826875" y="0.4516875"/>
+<vertex x="-0.578959375" y="-0.170178125"/>
+<vertex x="-0.762778125" y="0.45276875"/>
+<vertex x="-0.7708625" y="0.45531875"/>
+<vertex x="-1.070634375" y="0.45531875"/>
+<vertex x="-1.07085625" y="0.448478125"/>
+<vertex x="-0.735146875" y="-0.470728125"/>
+<vertex x="-0.435378125" y="-0.470728125"/>
+<vertex x="-0.256775" y="0.100753125"/>
+<vertex x="-0.083059375" y="-0.462621875"/>
+<vertex x="-0.079053125" y="-0.470728125"/>
+<vertex x="0.22071875" y="-0.470728125"/>
+</polygon>
+<polygon width="0.001" layer="21">
+<vertex x="1.261403125" y="0.45531875"/>
+<vertex x="0.9610125" y="0.45531875"/>
+<vertex x="0.958434375" y="0.447884375"/>
+<vertex x="0.958434375" y="-0.46329375"/>
+<vertex x="0.9610125" y="-0.470728125"/>
+<vertex x="1.261403125" y="-0.470728125"/>
+</polygon>
+<polygon width="0.001" layer="21">
+<vertex x="0.8968375" y="0.45531875"/>
+<vertex x="0.596446875" y="0.45531875"/>
+<vertex x="0.593859375" y="0.447890625"/>
+<vertex x="0.593859375" y="-0.4633"/>
+<vertex x="0.596446875" y="-0.470728125"/>
+<vertex x="0.8968375" y="-0.470728125"/>
+</polygon>
+<polygon width="0.001" layer="21">
+<vertex x="1.854796875" y="0.462628125"/>
+<vertex x="1.814875" y="0.465375"/>
+<vertex x="1.764859375" y="0.464971875"/>
+<vertex x="1.715046875" y="0.460478125"/>
+<vertex x="1.6756" y="0.453753125"/>
+<vertex x="1.636771875" y="0.444078125"/>
+<vertex x="1.598846875" y="0.431325"/>
+<vertex x="1.5621375" y="0.4154125"/>
+<vertex x="1.5269875" y="0.39629375"/>
+<vertex x="1.49375625" y="0.3740125"/>
+<vertex x="1.462790625" y="0.348678125"/>
+<vertex x="1.4344125" y="0.320475"/>
+<vertex x="1.408890625" y="0.2896625"/>
+<vertex x="1.386421875" y="0.256559375"/>
+<vertex x="1.367128125" y="0.221509375"/>
+<vertex x="1.351053125" y="0.18486875"/>
+<vertex x="1.338165625" y="0.1469875"/>
+<vertex x="1.3283875" y="0.1081875"/>
+<vertex x="1.320334375" y="0.058828125"/>
+<vertex x="1.31663125" y="0.00895"/>
+<vertex x="1.316978125" y="-0.041065625"/>
+<vertex x="1.3215125" y="-0.090875"/>
+<vertex x="1.3283875" y="-0.13029375"/>
+<vertex x="1.3413" y="-0.178609375"/>
+<vertex x="1.355234375" y="-0.216115625"/>
+<vertex x="1.372446875" y="-0.252234375"/>
+<vertex x="1.392934375" y="-0.2866"/>
+<vertex x="1.416621875" y="-0.31884375"/>
+<vertex x="1.4433375" y="-0.348625"/>
+<vertex x="1.472846875" y="-0.375640625"/>
+<vertex x="1.5048375" y="-0.399665625"/>
+<vertex x="1.5389625" y="-0.42055"/>
+<vertex x="1.58406875" y="-0.442140625"/>
+<vertex x="1.612165625" y="-0.452690625"/>
+<vertex x="1.650540625" y="-0.464025"/>
+<vertex x="1.719384375" y="-0.47666875"/>
+<vertex x="1.75925625" y="-0.48005625"/>
+<vertex x="1.80926875" y="-0.480646875"/>
+<vertex x="1.84921875" y="-0.478309375"/>
+<vertex x="1.854696875" y="-0.473309375"/>
+<vertex x="1.854696875" y="-0.2331625"/>
+<vertex x="1.848175" y="-0.23099375"/>
+<vertex x="1.81835" y="-0.234215625"/>
+<vertex x="1.79834375" y="-0.234246875"/>
+<vertex x="1.758875" y="-0.2281125"/>
+<vertex x="1.73993125" y="-0.22170625"/>
+<vertex x="1.72189375" y="-0.2130625"/>
+<vertex x="1.705046875" y="-0.202284375"/>
+<vertex x="1.689615625" y="-0.1895625"/>
+<vertex x="1.66359375" y="-0.15925625"/>
+<vertex x="1.653128125" y="-0.1422125"/>
+<vertex x="1.640559375" y="-0.114975"/>
+<vertex x="1.634178125" y="-0.0960125"/>
+<vertex x="1.627378125" y="-0.066790625"/>
+<vertex x="1.62363125" y="-0.03701875"/>
+<vertex x="1.622621875" y="-0.007028125"/>
+<vertex x="1.62685" y="0.042771875"/>
+<vertex x="1.63335" y="0.0720625"/>
+<vertex x="1.639515625" y="0.091096875"/>
+<vertex x="1.651721875" y="0.118496875"/>
+<vertex x="1.66191875" y="0.135709375"/>
+<vertex x="1.687353125" y="0.166509375"/>
+<vertex x="1.710621875" y="0.1854125"/>
+<vertex x="1.727859375" y="0.19555625"/>
+<vertex x="1.746196875" y="0.20353125"/>
+<vertex x="1.7653625" y="0.20925"/>
+<vertex x="1.805025" y="0.214009375"/>
+<vertex x="1.825015625" y="0.2133125"/>
+<vertex x="1.854696875" y="0.20895625"/>
+</polygon>
+<polygon width="0.001" layer="21">
+<vertex x="1.674321875" y="0.867490625"/>
+<vertex x="-2.5452875" y="0.867490625"/>
+<vertex x="-2.55" y="0.86220625"/>
+<vertex x="-2.549371875" y="-0.867"/>
+<vertex x="2.55" y="-0.8668375"/>
+<vertex x="2.55" y="0.862996875"/>
+<vertex x="2.544490625" y="0.8674875"/>
+<vertex x="1.674571875" y="0.8674875"/>
+<vertex x="1.674321875" y="0.807746875"/>
+<vertex x="1.68019375" y="0.803596875"/>
+<vertex x="1.760028125" y="0.799096875"/>
+<vertex x="1.839021875" y="0.7867125"/>
+<vertex x="1.916384375" y="0.766496875"/>
+<vertex x="1.99133125" y="0.7386375"/>
+<vertex x="2.0631125" y="0.703415625"/>
+<vertex x="2.1310375" y="0.661221875"/>
+<vertex x="2.194434375" y="0.612496875"/>
+<vertex x="2.25270625" y="0.55774375"/>
+<vertex x="2.2990375" y="0.505309375"/>
+<vertex x="2.34065625" y="0.449059375"/>
+<vertex x="2.377225" y="0.389409375"/>
+<vertex x="2.404334375" y="0.335903125"/>
+<vertex x="2.427353125" y="0.280515625"/>
+<vertex x="2.448853125" y="0.21393125"/>
+<vertex x="2.464434375" y="0.145715625"/>
+<vertex x="2.473996875" y="0.076403125"/>
+<vertex x="2.477525" y="0.00651875"/>
+<vertex x="2.474203125" y="-0.073371875"/>
+<vertex x="2.464834375" y="-0.1427125"/>
+<vertex x="2.44944375" y="-0.21096875"/>
+<vertex x="2.428125" y="-0.2776125"/>
+<vertex x="2.401046875" y="-0.342134375"/>
+<vertex x="2.3684375" y="-0.404040625"/>
+<vertex x="2.324728125" y="-0.47099375"/>
+<vertex x="2.2812" y="-0.525778125"/>
+<vertex x="2.225865625" y="-0.5835"/>
+<vertex x="2.172975" y="-0.629309375"/>
+<vertex x="2.107934375" y="-0.67581875"/>
+<vertex x="2.03859375" y="-0.7156375"/>
+<vertex x="1.974921875" y="-0.744653125"/>
+<vertex x="1.90895625" y="-0.767984375"/>
+<vertex x="1.841196875" y="-0.7854375"/>
+<vertex x="1.7622375" y="-0.7980375"/>
+<vertex x="1.722384375" y="-0.80138125"/>
+<vertex x="1.672415625" y="-0.802796875"/>
+<vertex x="-1.677275" y="-0.802790625"/>
+<vertex x="-1.73720625" y="-0.800375"/>
+<vertex x="-1.7869" y="-0.794975"/>
+<vertex x="-1.845946875" y="-0.784428125"/>
+<vertex x="-1.904034375" y="-0.769478125"/>
+<vertex x="-1.960834375" y="-0.750203125"/>
+<vertex x="-2.016021875" y="-0.7267125"/>
+<vertex x="-2.069296875" y="-0.699153125"/>
+<vertex x="-2.1203625" y="-0.6676875"/>
+<vertex x="-2.168940625" y="-0.63250625"/>
+<vertex x="-2.21476875" y="-0.5938125"/>
+<vertex x="-2.257603125" y="-0.551825"/>
+<vertex x="-2.29720625" y="-0.506775"/>
+<vertex x="-2.333353125" y="-0.458909375"/>
+<vertex x="-2.365834375" y="-0.4084875"/>
+<vertex x="-2.3944625" y="-0.355778125"/>
+<vertex x="-2.4190625" y="-0.301075"/>
+<vertex x="-2.43948125" y="-0.244678125"/>
+<vertex x="-2.455603125" y="-0.186903125"/>
+<vertex x="-2.470265625" y="-0.108303125"/>
+<vertex x="-2.47704375" y="-0.028628125"/>
+<vertex x="-2.475971875" y="0.051325"/>
+<vertex x="-2.46703125" y="0.130784375"/>
+<vertex x="-2.45021875" y="0.208953125"/>
+<vertex x="-2.42915" y="0.275675"/>
+<vertex x="-2.39801875" y="0.349325"/>
+<vertex x="-2.3596875" y="0.4195"/>
+<vertex x="-2.314571875" y="0.485515625"/>
+<vertex x="-2.2631375" y="0.5467375"/>
+<vertex x="-2.20590625" y="0.602578125"/>
+<vertex x="-2.143434375" y="0.652484375"/>
+<vertex x="-2.07631875" y="0.69595"/>
+<vertex x="-2.0052125" y="0.732521875"/>
+<vertex x="-1.930809375" y="0.761803125"/>
+<vertex x="-1.86358125" y="0.7812"/>
+<vertex x="-1.824484375" y="0.7896125"/>
+<vertex x="-1.7751" y="0.797359375"/>
+<vertex x="-1.72533125" y="0.802025"/>
+<vertex x="-1.67536875" y="0.803615625"/>
+<vertex x="1.674321875" y="0.80361875"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="DOCFIELD">
@@ -23079,6 +23371,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
+<device name="_5MM_INVERTED" package="QWIIC_5MM_INVERTED">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="OSHW-LOGO" prefix="LOGO">
@@ -23298,7 +23595,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-08575"/>
-<attribute name="VALUE" value="BLUE"/>
+<attribute name="VALUE" value="Blue"/>
 </technology>
 </technologies>
 </device>
@@ -23310,7 +23607,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-09911"/>
-<attribute name="VALUE" value="BLUE" constant="no"/>
+<attribute name="VALUE" value="Blue"/>
 </technology>
 </technologies>
 </device>
@@ -23322,6 +23619,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-09911" constant="no"/>
+<attribute name="VALUE" value="Blue"/>
 </technology>
 </technologies>
 </device>
@@ -23333,7 +23631,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-16513" constant="no"/>
-<attribute name="VALUE" value="Blue" constant="no"/>
+<attribute name="VALUE" value="Blue"/>
 </technology>
 </technologies>
 </device>
@@ -23367,7 +23665,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-00819"/>
-<attribute name="VALUE" value="RED" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23379,7 +23677,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-09912"/>
-<attribute name="VALUE" value="RED" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23391,7 +23689,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-11154" constant="no"/>
-<attribute name="VALUE" value="Red" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23403,6 +23701,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-09912" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23414,7 +23713,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-16511" constant="no"/>
-<attribute name="VALUE" value="Red" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23426,7 +23725,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-16757" constant="no"/>
-<attribute name="VALUE" value="RED" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23438,7 +23737,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-16865"/>
-<attribute name="VALUE" value="RED"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -23450,6 +23749,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-17976" constant="no"/>
+<attribute name="VALUE" value="Red"/>
 </technology>
 </technologies>
 </device>
@@ -25846,7 +26146,7 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="RED"/>
+<part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="Red"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
 <part name="PWR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -25882,7 +26182,7 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 <attribute name="DESIGNER" value="Elias Santistevan"/>
 <attribute name="REV" value="v01"/>
 </part>
-<part name="D2" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
+<part name="D2" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="Blue"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="STAT" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
