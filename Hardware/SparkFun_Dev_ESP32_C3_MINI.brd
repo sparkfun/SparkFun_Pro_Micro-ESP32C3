@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="23" fill="1" visible="yes" active="yes"/>
@@ -215,7 +215,7 @@ Surface Finish: Lead-Free HASL</text>
 <dimension x1="5.08" y1="22.86" x2="5.08" y2="33.02" x3="-7.55" y3="27.94" textsize="1.016" textratio="15" layer="47" unit="inch"/>
 <dimension x1="15.24" y1="22.86" x2="19.05" y2="22.86" x3="17.145" y3="36.449" textsize="1.016" textratio="15" layer="47" unit="inch"/>
 <dimension x1="5.08" y1="22.86" x2="1.27" y2="22.86" x3="3.175" y3="36.449" textsize="0.9652" textratio="15" layer="47" unit="inch"/>
-<text x="-2.286" y="29.972" size="0.8128" layer="16" font="vector" ratio="20" rot="SMR180">v01</text>
+<text x="3.683" y="30.099" size="0.8128" layer="16" font="vector" ratio="20" rot="SMR180">v10</text>
 <wire x1="-0.381" y1="33.274" x2="20.574" y2="33.274" width="0.2032" layer="46"/>
 <text x="21.59" y="33.02" size="1.27" layer="46" font="vector" ratio="15">v-score</text>
 <rectangle x1="1.27" y1="20.066" x2="3.429" y2="25.654" layer="21"/>
@@ -7148,7 +7148,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="JP14" library="SparkFun-Connectors" package="USB-SOLDER-PADS" value="USB_SOLDER_PADS" x="10.16" y="31.115" smashed="yes" rot="MR270"/>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-11.43" y="-25.4" smashed="yes">
 <attribute name="DESIGNER" value="Elias Santistevan" x="-11.43" y="-25.4" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="v01" x="-11.43" y="-25.4" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="REV" value="v10" x="-11.43" y="-25.4" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="D2" library="SparkFun-LED" package="LED-0603" value="Blue" x="17.387" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.387" y="31.188" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
