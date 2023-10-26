@@ -1396,7 +1396,7 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X09_CASTELLATED">
+<deviceset name="1X09_CASTELLATED" prefix="J">
 <gates>
 <gate name="G$1" symbol="CONN_09" x="-2.54" y="0"/>
 </gates>

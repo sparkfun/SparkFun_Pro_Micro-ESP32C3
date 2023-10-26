@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -7353,8 +7353,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="7.62" y1="20.955" x2="7.62" y2="19.7104" width="0.2032" layer="16"/>
 <wire x1="7.62" y1="19.7104" x2="8.0264" y2="19.304" width="0.2032" layer="16"/>
 <via x="8.0264" y="19.304" extent="1-16" drill="0.3048"/>
-<wire x1="4.4577" y1="31.75" x2="4.4577" y2="31.0721" width="0.2032" layer="16"/>
-<wire x1="4.4577" y1="31.0721" x2="3.9926" y2="30.607" width="0.2032" layer="16"/>
+<wire x1="4.4577" y1="31.75" x2="4.4577" y2="30.8181" width="0.2032" layer="16"/>
+<wire x1="4.4577" y1="30.8181" x2="4.2466" y2="30.607" width="0.2032" layer="16"/>
+<wire x1="4.2466" y1="30.607" x2="3.9926" y2="30.607" width="0.2032" layer="16"/>
 <via x="3.9926" y="30.607" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="GND">
@@ -7469,6 +7470,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="16.04" y1="20.81" x2="16.53" y2="20.32" width="0.2032" layer="1"/>
 <wire x1="16.53" y1="20.32" x2="17.018" y2="20.32" width="0.2032" layer="1"/>
 <via x="16.129" y="25.908" extent="1-16" drill="0.3048"/>
+<via x="11.176" y="7.239" extent="1-16" drill="0.3048"/>
+<via x="13.843" y="12.7" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$4">
 <contactref element="R3" pad="2"/>
@@ -7566,9 +7569,14 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="8.0522" y1="27.9904" x2="8.0772" y2="27.9654" width="0.3048" layer="16"/>
 <wire x1="7.493" y1="31.115" x2="7.493" y2="29.19959375" width="0.3048" layer="16"/>
 <wire x1="7.493" y1="29.19959375" x2="8.0522" y2="28.64039375" width="0.3048" layer="16"/>
-<wire x1="17.78" y1="29.21" x2="12.192" y2="29.21" width="0.508" layer="2"/>
-<wire x1="12.192" y1="29.21" x2="10.922" y2="27.94" width="0.508" layer="2"/>
+<wire x1="11.43" y1="28.956" x2="11.43" y2="28.067" width="0.508" layer="2"/>
+<wire x1="17.78" y1="29.21" x2="11.684" y2="29.21" width="0.508" layer="2"/>
+<wire x1="11.684" y1="29.21" x2="11.43" y2="28.956" width="0.508" layer="2"/>
 <wire x1="17.78" y1="29.21" x2="19.35" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="12.2678" y1="27.9146" x2="11.43" y2="28.067" width="0" layer="19" extent="1-2"/>
+<wire x1="11.0998" y1="25.5524" x2="12.61" y2="27.01" width="0" layer="19" extent="1-1"/>
+<wire x1="9.2456" y1="25.7302" x2="11.0998" y2="25.5524" width="0" layer="19" extent="1-1"/>
+<wire x1="7.71" y1="27.01" x2="9.2456" y2="25.7302" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!RESET!">
 <contactref element="R11" pad="1"/>
