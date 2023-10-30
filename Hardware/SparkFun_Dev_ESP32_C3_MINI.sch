@@ -22245,8 +22245,8 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J5" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="Vertical Qwiic Connector"/>
-<part name="U$2" library="ESP32-C3-MINI-1" deviceset="1X09_CASTELLATED" device=""/>
-<part name="U$3" library="ESP32-C3-MINI-1" deviceset="1X09_CASTELLATED" device=""/>
+<part name="J6" library="ESP32-C3-MINI-1" deviceset="1X09_CASTELLATED" device=""/>
+<part name="J7" library="ESP32-C3-MINI-1" deviceset="1X09_CASTELLATED" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -22499,11 +22499,11 @@ ZDifferential: 91 Ohms </text>
 <attribute name="VALUE" x="391.16" y="65.786" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="408.94" y="78.994" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="U$2" gate="G$1" x="381" y="132.08" smashed="yes">
+<instance part="J6" gate="G$1" x="381" y="132.08" smashed="yes">
 <attribute name="VALUE" x="365.76" y="117.094" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="381" y="145.288" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="U$3" gate="G$1" x="454.66" y="132.08" smashed="yes" rot="R180">
+<instance part="J7" gate="G$1" x="454.66" y="132.08" smashed="yes" rot="R180">
 <attribute name="VALUE" x="469.9" y="119.126" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="454.66" y="146.812" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
@@ -22609,7 +22609,7 @@ ZDifferential: 91 Ohms </text>
 <wire x1="444.5" y1="134.62" x2="439.42" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="439.42" y1="134.62" x2="439.42" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<pinref part="U$3" gate="G$1" pin="4"/>
+<pinref part="J7" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -22698,8 +22698,8 @@ ZDifferential: 91 Ohms </text>
 <wire x1="391.16" y1="134.62" x2="393.7" y2="134.62" width="0.1524" layer="91"/>
 <junction x="393.7" y="134.62"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="U$2" gate="G$1" pin="6"/>
-<pinref part="U$2" gate="G$1" pin="7"/>
+<pinref part="J6" gate="G$1" pin="6"/>
+<pinref part="J6" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="647.7" y1="198.12" x2="645.16" y2="198.12" width="0.1524" layer="91"/>
@@ -22711,7 +22711,7 @@ ZDifferential: 91 Ohms </text>
 <wire x1="444.5" y1="139.7" x2="441.96" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="441.96" y1="139.7" x2="441.96" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="U$3" gate="G$1" pin="2"/>
+<pinref part="J7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -22781,7 +22781,7 @@ ZDifferential: 91 Ohms </text>
 <wire x1="444.5" y1="142.24" x2="431.8" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="431.8" y1="142.24" x2="431.8" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="V_USB"/>
-<pinref part="U$3" gate="G$1" pin="1"/>
+<pinref part="J7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="!RESET!" class="0">
@@ -22811,7 +22811,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="444.5" y1="137.16" x2="436.88" y2="137.16" width="0.1524" layer="91"/>
 <label x="436.88" y="137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="3"/>
+<pinref part="J7" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="IO8" class="0">
@@ -22827,7 +22827,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="396.24" y1="121.92" x2="391.16" y2="121.92" width="0.1524" layer="91"/>
 <label x="396.24" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="J6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -22848,7 +22848,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="391.16" y1="139.7" x2="396.24" y2="139.7" width="0.1524" layer="91"/>
 <label x="396.24" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="8"/>
+<pinref part="J6" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <wire x1="678.18" y1="200.66" x2="685.8" y2="200.66" width="0.1524" layer="91"/>
@@ -22860,7 +22860,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="391.16" y1="142.24" x2="396.24" y2="142.24" width="0.1524" layer="91"/>
 <label x="396.24" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="9"/>
+<pinref part="J6" gate="G$1" pin="9"/>
 </segment>
 <segment>
 <wire x1="678.18" y1="198.12" x2="685.8" y2="198.12" width="0.1524" layer="91"/>
@@ -22881,7 +22881,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="436.88" y1="121.92" x2="444.5" y2="121.92" width="0.1524" layer="91"/>
 <label x="436.88" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="9"/>
+<pinref part="J7" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="IOA3/PICO" class="0">
@@ -22893,7 +22893,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="436.88" y1="132.08" x2="444.5" y2="132.08" width="0.1524" layer="91"/>
 <label x="436.88" y="132.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="5"/>
+<pinref part="J7" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="IOA1/POCI" class="0">
@@ -22905,7 +22905,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="436.88" y1="129.54" x2="444.5" y2="129.54" width="0.1524" layer="91"/>
 <label x="436.88" y="129.54" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="6"/>
+<pinref part="J7" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -22931,7 +22931,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="396.24" y1="124.46" x2="391.16" y2="124.46" width="0.1524" layer="91"/>
 <label x="396.24" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="2"/>
+<pinref part="J6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="STAT" gate="G$1" pin="2"/>
@@ -22962,7 +22962,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="436.88" y1="124.46" x2="444.5" y2="124.46" width="0.1524" layer="91"/>
 <label x="436.88" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="8"/>
+<pinref part="J7" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="TP4" gate="G$1" pin="1"/>
@@ -22984,7 +22984,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="396.24" y1="132.08" x2="391.16" y2="132.08" width="0.1524" layer="91"/>
 <label x="396.24" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="5"/>
+<pinref part="J6" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <wire x1="426.72" y1="73.66" x2="421.64" y2="73.66" width="0.1524" layer="91"/>
@@ -23011,7 +23011,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="396.24" y1="129.54" x2="391.16" y2="129.54" width="0.1524" layer="91"/>
 <label x="396.24" y="129.54" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="4"/>
+<pinref part="J6" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="TP3" gate="G$1" pin="1"/>
@@ -23028,7 +23028,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="396.24" y1="127" x2="391.16" y2="127" width="0.1524" layer="91"/>
 <label x="396.24" y="127" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="3"/>
+<pinref part="J6" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="685.8" y1="215.9" x2="678.18" y2="215.9" width="0.1524" layer="91"/>
@@ -23045,7 +23045,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="436.88" y1="127" x2="444.5" y2="127" width="0.1524" layer="91"/>
 <label x="436.88" y="127" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="7"/>
+<pinref part="J7" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="685.8" y1="233.68" x2="678.18" y2="233.68" width="0.1524" layer="91" style="longdash"/>
