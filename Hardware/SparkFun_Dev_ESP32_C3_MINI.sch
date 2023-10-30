@@ -22071,10 +22071,10 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pin name="EN" x="-15.24" y="15.24" length="short"/>
 <pin name="IOA2" x="15.24" y="12.7" length="short" rot="R180"/>
 <pin name="IOA3" x="15.24" y="10.16" length="short" rot="R180"/>
-<pin name="IOA4/MTMS" x="15.24" y="7.62" length="short" rot="R180"/>
-<pin name="IO5/MTDI" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="IO6/MTCK" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="IO7/MTDO" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="MTMS/IOA4" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="MTDI/IO5" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="MTCK/IO6" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="MTDO/IO7" x="15.24" y="0" length="short" rot="R180"/>
 <pin name="IO8" x="15.24" y="-2.54" length="short" rot="R180"/>
 <pin name="IO9" x="15.24" y="-5.08" length="short" rot="R180"/>
 <pin name="USB_D-/IO18" x="15.24" y="-10.16" length="short" rot="R180"/>
@@ -22138,16 +22138,16 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 <connect gate="G$1" pin="EN" pad="8"/>
 <connect gate="G$1" pin="GND" pad="1 2 11 14 36 37 38 39 40 41 42 43 44 45 46 47 48 49.1 49.2 49.3 49.4 49.5 49.6 49.7 49.8 49.9 50 51 52 53"/>
 <connect gate="G$1" pin="IO10" pad="16"/>
-<connect gate="G$1" pin="IO5/MTDI" pad="19"/>
-<connect gate="G$1" pin="IO6/MTCK" pad="20"/>
-<connect gate="G$1" pin="IO7/MTDO" pad="21"/>
 <connect gate="G$1" pin="IO8" pad="22"/>
 <connect gate="G$1" pin="IO9" pad="23"/>
 <connect gate="G$1" pin="IOA0" pad="12"/>
 <connect gate="G$1" pin="IOA1" pad="13"/>
 <connect gate="G$1" pin="IOA2" pad="5"/>
 <connect gate="G$1" pin="IOA3" pad="6"/>
-<connect gate="G$1" pin="IOA4/MTMS" pad="18"/>
+<connect gate="G$1" pin="MTCK/IO6" pad="20"/>
+<connect gate="G$1" pin="MTDI/IO5" pad="19"/>
+<connect gate="G$1" pin="MTDO/IO7" pad="21"/>
+<connect gate="G$1" pin="MTMS/IOA4" pad="18"/>
 <connect gate="G$1" pin="RXD/IO20" pad="30"/>
 <connect gate="G$1" pin="TXD/IO21" pad="31"/>
 <connect gate="G$1" pin="USB_D+/IO19" pad="27"/>
@@ -22957,7 +22957,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="685.8" y1="223.52" x2="678.18" y2="223.52" width="0.1524" layer="91" style="longdash"/>
 <label x="685.8" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="IOA4/MTMS"/>
+<pinref part="U1" gate="G$1" pin="MTMS/IOA4"/>
 </segment>
 <segment>
 <wire x1="436.88" y1="124.46" x2="444.5" y2="124.46" width="0.1524" layer="91"/>
@@ -22974,7 +22974,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="685.8" y1="220.98" x2="678.18" y2="220.98" width="0.1524" layer="91"/>
 <label x="685.8" y="220.98" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="IO5/MTDI"/>
+<pinref part="U1" gate="G$1" pin="MTDI/IO5"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -23001,7 +23001,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="685.8" y1="218.44" x2="678.18" y2="218.44" width="0.1524" layer="91"/>
 <label x="685.8" y="218.44" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="IO6/MTCK"/>
+<pinref part="U1" gate="G$1" pin="MTCK/IO6"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -23033,7 +23033,7 @@ ZDifferential: 91 Ohms </text>
 <segment>
 <wire x1="685.8" y1="215.9" x2="678.18" y2="215.9" width="0.1524" layer="91"/>
 <label x="685.8" y="215.9" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="IO7/MTDO"/>
+<pinref part="U1" gate="G$1" pin="MTDO/IO7"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="27.94" x2="403.86" y2="27.94" width="0.1524" layer="91" style="longdash"/>
