@@ -22294,10 +22294,10 @@ shield from GND</text>
 <wire x1="347.98" y1="53.34" x2="480.06" y2="53.34" width="0.2032" layer="97" style="longdash"/>
 <wire x1="480.06" y1="99.06" x2="347.98" y2="99.06" width="0.2032" layer="97" style="longdash"/>
 <text x="393.7" y="175.26" size="1.778" layer="97" font="vector">USB Differential Lines:  
-Width: 7mils
+Width: 9.5mils
 Spacing: 5mils
-Conductor Height: 7.1mils
-ZDifferential: 91 Ohms </text>
+Conductor Height: 8.3mils
+ZDifferential: 90 Ohms </text>
 </plain>
 <instances>
 <instance part="J1" gate="J1" x="391.16" y="218.44" smashed="yes">
