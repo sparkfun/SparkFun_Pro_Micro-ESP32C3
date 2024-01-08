@@ -13,7 +13,7 @@ icon: material/book-open-page-variant
     ---
 
     <figure markdown>
-    ![Product Thumbnail](<Product Image Link>)
+    ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/3/7/7/5/DEV-23484-Pro-Micro-ESP32-C3-Feature.jpg)
     </figure></a>
 
 -    The SparkFun Pro Micro - ESP32-C3 product description. 
@@ -25,8 +25,6 @@ icon: material/book-open-page-variant
 </div>
 
 
-
-
 ## Required Materials
 To get started, users will need a few items. You may already have a few of these items, feel free to modify your cart accordingly.
 
@@ -34,7 +32,7 @@ To get started, users will need a few items. You may already have a few of these
 
 -   <a href="https://www.sparkfun.com/products/23484">
     <figure markdown>
-    ![Product Thumbnail](assets/img/22638-SparkFun-Tristimulus-Color-Sensor-01.jpg)
+    ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/3/7/7/5/DEV-23484-Pro-Micro-ESP32-C3-Feature.jpg)
     </figure>
 
     ---
