@@ -1,11 +1,11 @@
 SparkFun Pro Micro ESP32-C3
 ========================================
 
-[![SparkFun Pro Micro ESP32-C3](URL for picture of part)](https://www.sparkfun.com/products/23484)
+[![SparkFun Pro Micro ESP32-C3](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/7/7/5/DEV-23484-Pro-Micro-ESP32-C3-Feature.jpg)](https://www.sparkfun.com/products/23484)
 
 [*SparkFun Pro Micro ESP32-C3 (DEV-23484)*](https://www.sparkfun.com/products/23484)
 
-<Basic description of the part.>
+
 
 Repository Contents
 -------------------
