@@ -13,7 +13,7 @@ icon: material/book-open-page-variant
     ---
 
     <figure markdown>
-    ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/3/7/7/5/DEV-23484-Pro-Micro-ESP32-C3-Feature.jpg)
+    ![Product Thumbnail](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/7/7/5/DEV-23484-Pro-Micro-ESP32-C3-Feature.jpg)
     </figure></a>
 
 -    The SparkFun Pro Micro - ESP32-C3 product description. 
@@ -32,7 +32,7 @@ To get started, users will need a few items. You may already have a few of these
 
 -   <a href="https://www.sparkfun.com/products/23484">
     <figure markdown>
-    ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/3/7/7/5/DEV-23484-Pro-Micro-ESP32-C3-Feature.jpg)
+    ![Product Thumbnail](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/7/7/5/DEV-23484-Pro-Micro-ESP32-C3-Feature.jpg)
     </figure>
 
     ---
