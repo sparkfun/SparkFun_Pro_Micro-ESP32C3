@@ -6,9 +6,9 @@ Now that we've installed the espressif boards package in Arduino, it's time to u
 
 ## Example 1 - Blink 
 
-This basic example makes sure the board package installed correctly and the board accepts programming properly to blink the green STAT LED on the board every second. Open the example in Arduino by navigating to File > Examples > Basics > 01-Blink.
+This basic example makes sure the board package installed correctly and the board accepts programming properly to blink the blue IO10 LED on the board every second. Open the example in Arduino by navigating to File > Examples > Basics > 01-Blink.
 
-You may need to define LED_BUILTIN as 10 like so: 
+You will need to define LED_BUILTIN as 10 like so: 
 
 <figure markdown>
 [![LED Builtin is Defined](assets/img/DefineLED_BUILTIN.png){ width="400" }](assets/img/DefineLED_BUILTIN.png "Click to enlarge")
@@ -36,7 +36,7 @@ Before uploading, you'll need to put the board into the <a href="https://docs.es
     * Press the <kbd>RST</kbd> button.
     * Power cycle the board. 
 
-Once the board is in the serial bootloader, you can upload code through the Arduino interface. Once your code is uploaded, you may need to hit the <kbd>RST</kbd> button to get your sketch running. 
+Once the board is in the serial bootloader, you can upload code through the Arduino interface. Once your code is uploaded, you will need to hit the <kbd>RST</kbd> button to get your sketch running. 
 
 
 <figure markdown>

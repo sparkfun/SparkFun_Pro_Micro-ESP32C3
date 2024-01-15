@@ -126,7 +126,7 @@ The SparkFun ESP32-C3 Pro Micro measures 0.7" x 1.3".
 
 
 ??? tip "Need more measurements?"
-	For more information about the board's dimensions, users can download the [Eagle files](assets/board_files/22638-SparkFun_Color_Sensor_OPT4048-EagleFiles.zip) for the 1" x 1" board, or the [Eagle files](assets/board_files/22639-SparkFun_Color_Sensor_OPT4048_Mini-EagleFiles.zip) for the Mini board. These files can be opened in Eagle and additional measurements can be made with the dimensions tool.
+	For more information about the board's dimensions, users can download the [Eagle files](assets/board_files/SparkFun_ESP32_C3_Pro_Micro_EagleFiles.zip). These files can be opened in Eagle and additional measurements can be made with the dimensions tool.
 
 	??? info ":octicons-download-16:{ .heart } Eagle - Free Download!"
 		Eagle is a [CAD]("computer-aided design") program for electronics that is free to use for hobbyists and students. However, it does require an account registration to utilize the software.
@@ -143,6 +143,5 @@ The SparkFun ESP32-C3 Pro Micro measures 0.7" x 1.3".
 		<iframe src="https://www.youtube.com/embed/dZLNd1FtNB8" title="EAGLE Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		</center>
-
 
 
