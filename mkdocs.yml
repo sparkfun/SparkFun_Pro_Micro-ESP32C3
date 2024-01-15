@@ -254,9 +254,8 @@ nav:
     - Introduction: introduction.md
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md
-    - SparkFun Pro Micro ESP32-C3 Arduino Library:
-      - Software Setup: software_setup.md
-      - Arduino Examples: examples.md
+    - Software Setup: software_setup.md
+    - Arduino Examples: examples.md
   - Resources: resources.md
   - Support:
     - Troubleshooting: troubleshooting.md

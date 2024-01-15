@@ -16,7 +16,6 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - Arduino library for the SparkFun Pro Micro ESP32-C3
 * **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Pro_Micro-ESP32C3)** - Basic hookup guide for the SparkFun Pro Micro ESP32-C3
 
 License Information
