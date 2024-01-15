@@ -2,7 +2,7 @@
 icon: material/tools
 ---
 
-To program this board, and to use any of the I/O, you'll need to solder _something_ to the board. In the least, we recommend soldering [right-angle male headers](https://www.sparkfun.com/products/553) or [straight male headers](https://www.sparkfun.com/products/116) onto the six-pin serial header. Either of these will interface easily with the [SparkFun Serial Basic Breakout - CH340C and USB-C](https://www.sparkfun.com/products/15096).
+To use any of the I/O, you'll need to solder headers to the board. If you've never worked with castellated headers, head on over to our [Castellated Mounting Holes Tutorial](https://learn.sparkfun.com/tutorials/how-to-solder-castellated-mounting-holes) for more information. 
 
 ??? note "New to soldering?"
 	If you have never soldered before or need a quick refresher, check out our [How to Solder: Through-Hole Soldering](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering) guide.
