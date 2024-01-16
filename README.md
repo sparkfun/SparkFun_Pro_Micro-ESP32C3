@@ -15,7 +15,6 @@ The Pro Micro ESP32-C3 taps into the power of Espressif's open-source ESP-IDF, a
 
 So whether you're building a wearable masterpiece, a chatty IoT gadget, or a robotic friend, the SparkFun Pro Micro ESP32-C3 is your pint-sized partner in innovation. Grab one today and let your small-scale dreams take flight!
 
-
 Repository Contents
 -------------------
 
