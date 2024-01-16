@@ -23,7 +23,6 @@ The SparkFun Pro Micro ESP32-C3 could be considered "plug and play", depending o
 
 
 <figure markdown>
-[![ESP32 Connected to Programming](assets/img/23386-ESP32-Qwiic-Pro-Mini-Action3.jpg){ width="400" }](assets/img/23386-ESP32-Qwiic-Pro-Mini-Action3.jpg "Click to enlarge")
-<figcaption markdown>ESP32 Connected to Programming</figcaption>
+[![ESP32 Connected to Programming](assets/img/DEV-23484_ESP32-C3-Action-Shot.jpg){ width="400" }](assets/img/DEV-23484_ESP32-C3-Action-Shot.jpg "Click to enlarge")
+<figcaption markdown>SparkFun Pro Micro ESP32-C3 Connected to Programming</figcaption>
 </figure>
-

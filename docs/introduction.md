@@ -16,7 +16,7 @@ icon: material/book-open-page-variant
     ![Product Thumbnail](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/7/7/5/DEV-23484-Pro-Micro-ESP32-C3-Feature.jpg)
     </figure></a>
 
--    The SparkFun Pro Micro - ESP32-C3 product description. 
+-    Harness the power and versatility of Espressif's ESP32-C3 in our micro footprint with the SparkFun Pro Micro ESP32-C3! This 1.3" x 0.7" board incorporates the ESP32-C3-MINI-1 from Espressif; a single-core, 32-bit, RISC-V-based MCU with 400KB of SRAM, which is capable of running at 160MHz. It has integrated 2.4 GHz Wi-Fi and Bluetooth 5 (LE) with long-range support. We've broken out the 22 programmable GPIOs to castellated headers with support for ADC, SPI, UART, I2C, I2S, RMT, TWAI, and PWM. Best of all, the Qwiic connector means no soldering is required to make use of any number of Qwiic breakout sensors.
 
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/23484){ .md-button .md-button--primary }
@@ -57,30 +57,46 @@ To get started, users will need a few items. You may already have a few of these
 
 If you aren’t familiar with the following concepts, we recommend checking out these tutorials before continuing.
 
-<div class="grid cards hide col-4" markdown>
+<div class="grid cards hide col-4" markdown align="center">
 
-
--   <a href="https://www.sparkfun.com/qwiic">
+-   <a href="https://learn.sparkfun.com/tutorials/82">
     <figure markdown>
-    ![Product Thumbnail](https://cdn.sparkfun.com/assets/custom_pages/2/7/2/qwiic-logo-registered.jpg)
+    ![I2C](https://cdn.sparkfun.com/assets/learn_tutorials/8/2/I2C-Block-Diagram.jpg)
     </figure>
-    <center>**Qwiic Connect System**</center></a>
+    </a>
+    <a href="https://learn.sparkfun.com/tutorials/82">**I2C**
+    </a>
 
--   <a href="https://www.sparkfun.com/I2C">
+-   <a href="https://learn.sparkfun.com/tutorials/analog-vs-digital">
     <figure markdown>
-    ![Product Thumbnail](https://cdn.sparkfun.com/assets/learn_tutorials/8/2/I2C-Block-Diagram.jpg)
+    ![Analog vs. Digital](https://cdn.sparkfun.com/assets/learn_tutorials/8/9/analog_vs_digital_thumb.png)
     </figure>
-    <center>**I<sup>2</sup>C**</center></a>
+    </a>
+    <a href="https://learn.sparkfun.com/tutorials/analog-vs-digital">**Analog vs. Digital**
+    </a>
 
--   <a href="https://www.sparkfun.com/serial-communication">
+-   <a href="https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi">
     <figure markdown>
-    ![Product Thumbnail](https://cdn.sparkfun.com/r/700-700/assets/c/a/c/3/a/50e1cca6ce395fbc27000000.png)
+    ![SPI](https://cdn.sparkfun.com/assets/learn_tutorials/1/6/spiThumb_Updated2.png)
     </figure>
-    <center>**Serial Communication**</center></a>
-
-
-
+    </a>
+    <a href="https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi">**SPI**
+    </a>
 </div>
 
 
+<center>
+<div align="center">
+    <div style="top:5px;left:5px;background-color:Gray;position:relative">
+        <div style="top:-5px;left:-5px;background-color:#ffffff;position:relative;border:1px solid black;">
+            <a href="https://www.sparkfun.com/qwiic"><img src="https://cdn.sparkfun.com/assets/custom_pages/2/7/2/qwiic-logo.png" alt="Qwiic Connect System" title="Qwiic Connect System"></a>
+        </div>
+    </div>
+</div>
+</center>
 
+The SparkFun Pro Micro ESP32-C3 takes advantage of the [Qwiic connect system](https://www.sparkfun.com/qwiic). We recommend familiarizing yourself with the **Logic Levels** and **I<sup>2</sup>C** tutorials.  Click on the banner above to learn more about [Qwiic products](https://www.sparkfun.com/qwiic).
+
+<center>
+    <iframe width="600" height="327" src="https://www.youtube.com/embed/x0RDEHqFIF8" title="SparkFun's Qwiic Connect System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
