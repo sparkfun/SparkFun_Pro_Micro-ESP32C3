@@ -16,7 +16,8 @@ icon: material/book-open-page-variant
     ![Product Thumbnail](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/7/7/5/DEV-23484-Pro-Micro-ESP32-C3-Feature.jpg)
     </figure></a>
 
--    Harness the power and versatility of Espressif's ESP32-C3 in our micro footprint with the SparkFun Pro Micro ESP32-C3! This 1.3" x 0.7" board incorporates the ESP32-C3-MINI-1 from Espressif; a single-core, 32-bit, RISC-V-based MCU with 400KB of SRAM, which is capable of running at 160MHz. It has integrated 2.4 GHz Wi-Fi and Bluetooth 5 (LE) with long-range support. We've broken out the 22 programmable GPIOs to castellated headers with support for ADC, SPI, UART, I2C, I2S, RMT, TWAI, and PWM. Best of all, the Qwiic connector means no soldering is required to make use of any number of Qwiic breakout sensors.
+-    Don't be fooled by its miniature size; the SparkFun Pro Micro ESP32-C3 packs a punch. This micro marvel crams the powerful ESP32-C3, a single-core RISC-V powerhouse with 400KB of SRAM, into a compact 1.3in. x 0.7in. board. Clocking in at 160MHz, it's ready to tackle your projects quickly and efficiently. Forget wires and soldering headaches – the Pro Micro ESP32-C3 embraces the simplicity of the Qwiic connector. Just plug and play any Qwiic sensor and watch your projects come alive with environmental data, motion detection, or whatever your imagination conjures. And stay connected, wherever you are, with built-in WiFi and Bluetooth® 5 (LE).
+
 
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/23484){ .md-button .md-button--primary }
