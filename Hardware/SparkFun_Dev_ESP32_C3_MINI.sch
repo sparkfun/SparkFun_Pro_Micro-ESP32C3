@@ -22219,7 +22219,7 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 <part name="JP14" library="SparkFun-Connectors" deviceset="USB_SOLDER_PADS" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device="">
 <attribute name="DESIGNER" value="Elias Santistevan"/>
-<attribute name="REV" value="v10"/>
+<attribute name="REV" value="v11"/>
 </part>
 <part name="D2" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="Blue"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
