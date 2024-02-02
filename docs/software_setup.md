@@ -18,16 +18,17 @@ icon: simple/arduino
 
 
 
-## Installation
+## Installation (Windows)
 
 The SparkFun Pro Micro - ESP32-C3 board files are waiting on an official release from the Espressif Arduino Core. In the meantime you can add the board files manually. There is a file included in the [SparkFun_Pro_Micro-ESP32C3 Github Repository](https://github.com/sparkfun/SparkFun_Pro_Micro-ESP32C3/tree/main/Arduino_Board_Files) titled "Arduino_Board_Files", which contains a "Variant" folder labeled "sparkfun_pro_micro_esp32c3" and a "sparkfun_boards.txt" file. The variant file will need to be placed locaally into your machine and the contents of the "sparkfun_boards.txt" will need to be copied into the local "boards.txt" file.
 
 All of the Espressif Arduino Core files on your local computer can be found here on a Windows 10 machine: 
 
-    C:\Users\USERNAME\AppData\Local\Arduino15\packages\esp32\hardware\esp32 
+    C:\Users\<USERNAME>\AppData\Local\Arduino15\packages\esp32\hardware\esp32 
 
-You'll see a folder located here with some version number depending on what you have
-installed. Within that folder there are directores that look like the following:
+Make sure you change USERNAME to your name! 
+
+You'll see a folder located here with some version number depending on what you have installed. Within that folder there are directores that look like the following:
 
 <figure markdown>
 [![Core Files](assets/img/esp32_core_file_structure_overview.png){ width="600" }](assets/img/esp32_core_file_structure_overview.png "Click to enlarge")
