@@ -21891,6 +21891,77 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pad name="2B" x="-1.57" y="2.54" drill="1.7" diameter="1.75"/>
 <pad name="1B" x="-1.57" y="0" drill="1.7" diameter="1.75"/>
 </package>
+</packages>
+<symbols>
+<symbol name="CONN_09">
+<description>&lt;h3&gt; 9 Pin Connection&lt;/h3&gt;</description>
+<wire x1="6.35" y1="-12.7" x2="0" y2="-12.7" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.4064" layer="94"/>
+<wire x1="6.35" y1="-12.7" x2="6.35" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="0" y1="12.7" x2="6.35" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="5.08" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="7.62" x2="5.08" y2="7.62" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="10.16" x2="5.08" y2="10.16" width="0.6096" layer="94"/>
+<text x="0" y="-14.986" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="13.208" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<pin name="1" x="10.16" y="-10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="10.16" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="10.16" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="10.16" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="10.16" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="6" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="7" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="8" x="10.16" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="9" x="10.16" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1X09_CASTELLATED" prefix="J">
+<gates>
+<gate name="G$1" symbol="CONN_09" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X09_CASTELLATED">
+<connects>
+<connect gate="G$1" pin="1" pad="1 1B"/>
+<connect gate="G$1" pin="2" pad="2 2B"/>
+<connect gate="G$1" pin="3" pad="3 3B"/>
+<connect gate="G$1" pin="4" pad="4 4B"/>
+<connect gate="G$1" pin="5" pad="5 5B"/>
+<connect gate="G$1" pin="6" pad="6 6B"/>
+<connect gate="G$1" pin="7" pad="7 7B"/>
+<connect gate="G$1" pin="8" pad="8 8B"/>
+<connect gate="G$1" pin="9" pad="9 9B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-IC-Microcontroller">
+<description>&lt;h3&gt;SparkFun Microcontrollers&lt;/h3&gt;
+This library contains microcontrollers.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
 <package name="ESP32-C3-MINI-1">
 <smd name="1" x="-5.9" y="4" dx="0.4" dy="0.8" layer="1" rot="R90" cream="no"/>
 <smd name="2" x="-5.9" y="3.2" dx="0.4" dy="0.8" layer="1" rot="R90" cream="no"/>
@@ -22035,33 +22106,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </package>
 </packages>
 <symbols>
-<symbol name="CONN_09">
-<description>&lt;h3&gt; 9 Pin Connection&lt;/h3&gt;</description>
-<wire x1="6.35" y1="-12.7" x2="0" y2="-12.7" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.6096" layer="94"/>
-<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.4064" layer="94"/>
-<wire x1="6.35" y1="-12.7" x2="6.35" y2="12.7" width="0.4064" layer="94"/>
-<wire x1="0" y1="12.7" x2="6.35" y2="12.7" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="5.08" x2="5.08" y2="5.08" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="7.62" x2="5.08" y2="7.62" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="10.16" x2="5.08" y2="10.16" width="0.6096" layer="94"/>
-<text x="0" y="-14.986" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<text x="0" y="13.208" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<pin name="1" x="10.16" y="-10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="10.16" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="10.16" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="10.16" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5" x="10.16" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="6" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="7" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="8" x="10.16" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="9" x="10.16" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="ESP32-C3-MINI-1">
 <description>&lt;h3&gt;ESP32-C3 MINI-1&lt;/h3&gt;</description>
 <pin name="GND" x="-15.24" y="-17.78" length="short"/>
@@ -22097,29 +22141,6 @@ IO9 - Pull-up
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1X09_CASTELLATED" prefix="J">
-<gates>
-<gate name="G$1" symbol="CONN_09" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X09_CASTELLATED">
-<connects>
-<connect gate="G$1" pin="1" pad="1 1B"/>
-<connect gate="G$1" pin="2" pad="2 2B"/>
-<connect gate="G$1" pin="3" pad="3 3B"/>
-<connect gate="G$1" pin="4" pad="4 4B"/>
-<connect gate="G$1" pin="5" pad="5 5B"/>
-<connect gate="G$1" pin="6" pad="6 6B"/>
-<connect gate="G$1" pin="7" pad="7 7B"/>
-<connect gate="G$1" pin="8" pad="8 8B"/>
-<connect gate="G$1" pin="9" pad="9 9B"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ESP32-C3_MINI-1" prefix="U">
 <description>&lt;h3&gt;Espressif ESP32C3-MINI-1&lt;/h3&gt;
 &lt;p&gt;ESP32-C3-MINI-1 and ESP32-C3-MINI-1U are two general-purpose Wi-Fi and Bluetooth LE modules. The rich
@@ -22250,7 +22271,7 @@ The series comparison for the two modules is as follows:&lt;/p&gt;</description>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U1" library="ESP32-C3-MINI-1" deviceset="ESP32-C3_MINI-1" device=""/>
+<part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ESP32-C3_MINI-1" device=""/>
 </parts>
 <sheets>
 <sheet>
